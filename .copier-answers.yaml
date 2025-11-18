@@ -1,0 +1,10 @@
+_commit: 9ab14a1
+_src_path: gh:slaclab/lume-model-deployment-template
+deployment_name: lcls-fel-surrogate-deployment
+device: cpu
+interface: k2eg
+mlflow_tracking_uri: https://ard-mlflow.slac.stanford.edu/
+model_version: 1
+rate: 1.0
+registered_model_name: lcls-fel-surrogate
+vcluster: ad-accel-online-ml
