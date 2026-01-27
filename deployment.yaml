@@ -15,7 +15,7 @@ spec:
       labels:
         app: lcls-fel-surrogate
       annotations:
-        configmap/version: "v2"
+        configmap/version: "v3"
     spec:
       containers:
       - name: lcls-fel-surrogate
@@ -43,4 +43,4 @@ spec:
       volumes:
         - name: s3cmd-config-volume
           configMap:
-            name: k2eg-config-map-fel
+            name: k2eg-config-map
