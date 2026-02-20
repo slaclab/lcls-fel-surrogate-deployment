@@ -6,7 +6,7 @@ import collections
 from pathlib import Path
 import yaml
 import mlflow
-from online_model.mlflow_utils import MLflowRun, MLflowModelGetter
+from online_model.mlflow_utils import MLflowRun
 from online_model.configs.template_config import (
     registered_model_name,
     rate,
@@ -228,10 +228,10 @@ def write_output_and_log(
     # Add model outputs
     metrics_to_log.update(output)
 
-    mlflow.log_metrics(
-        metrics_to_log,
-        timestamp=wall_clock_timestamp_ms,
-    )
+    #mlflow.log_metrics(
+    #    metrics_to_log,
+    #    timestamp=wall_clock_timestamp_ms,
+    #)
 
    
     logger.info("Wrote input and output metrics to MLflow.")
