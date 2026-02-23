@@ -14,8 +14,6 @@ spec:
     metadata:
       labels:
         app: lcls-fel-surrogate
-      annotations:
-        configmap/version: "v3"
     spec:
       containers:
       - name: lcls-fel-surrogate
