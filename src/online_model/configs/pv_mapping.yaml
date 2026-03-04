@@ -1444,3 +1444,9 @@ input_variables:
     proto: ca
     symbols:
       - YCOR:UNDH:4780:BCTRL
+output_variables:
+  GDET:FEE1:241:ENRC_CU_HXR_LUME:
+    symbols:
+      - hxr_pulse_intensity
+    proto: pva
+    formula: hxr_pulse_intensity
