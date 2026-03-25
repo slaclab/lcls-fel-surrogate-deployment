@@ -1,1452 +1,1657 @@
 input_variables:
-  ACCL:LI21:180:L1X_S_AV:
-    formula: ACCL:LI21:180:L1X_S_AV
-    proto: ca
+  QUAD:LI21:211:BACT:
     symbols:
-      - ACCL:LI21:180:L1X_S_AV
-  ACCL:LI21:180:L1X_S_PV:
-    formula: ACCL:LI21:180:L1X_S_PV
+    - QUAD:LI21:211:BACT
+    formula: QUAD:LI21:211:BACT
     proto: ca
+  QUAD:LI21:221:BACT:
     symbols:
-      - ACCL:LI21:180:L1X_S_PV
+    - QUAD:LI21:221:BACT
+    formula: QUAD:LI21:221:BACT
+    proto: ca
+  QUAD:LI21:243:BACT:
+    symbols:
+    - QUAD:LI21:243:BACT
+    formula: QUAD:LI21:243:BACT
+    proto: ca
+  QUAD:LI21:251:BACT:
+    symbols:
+    - QUAD:LI21:251:BACT
+    formula: QUAD:LI21:251:BACT
+    proto: ca
+  QUAD:LI21:271:BACT:
+    symbols:
+    - QUAD:LI21:271:BACT
+    formula: QUAD:LI21:271:BACT
+    proto: ca
+  QUAD:LI21:335:BACT:
+    symbols:
+    - QUAD:LI21:335:BACT
+    formula: QUAD:LI21:335:BACT
+    proto: ca
+  QUAD:LI24:740:BACT:
+    symbols:
+    - QUAD:LI24:740:BACT
+    formula: QUAD:LI24:740:BACT
+    proto: ca
+  QUAD:LI24:860:BACT:
+    symbols:
+    - QUAD:LI24:860:BACT
+    formula: QUAD:LI24:860:BACT
+    proto: ca
+  QUAD:CLTH:140:BACT:
+    symbols:
+    - QUAD:CLTH:140:BACT
+    formula: QUAD:CLTH:140:BACT
+    proto: ca
+  QUAD:CLTH:170:BACT:
+    symbols:
+    - QUAD:CLTH:170:BACT
+    formula: QUAD:CLTH:170:BACT
+    proto: ca
+  QUAD:BSYH:445:BACT:
+    symbols:
+    - QUAD:BSYH:445:BACT
+    formula: QUAD:BSYH:445:BACT
+    proto: ca
+  QUAD:LTUH:285:BACT:
+    symbols:
+    - QUAD:LTUH:285:BACT
+    formula: QUAD:LTUH:285:BACT
+    proto: ca
+  QUAD:LTUH:295:BACT:
+    symbols:
+    - QUAD:LTUH:295:BACT
+    formula: QUAD:LTUH:295:BACT
+    proto: ca
+  QUAD:LTUH:385:BACT:
+    symbols:
+    - QUAD:LTUH:385:BACT
+    formula: QUAD:LTUH:385:BACT
+    proto: ca
+  QUAD:LTUH:395:BACT:
+    symbols:
+    - QUAD:LTUH:395:BACT
+    formula: QUAD:LTUH:395:BACT
+    proto: ca
+  QUAD:LTUH:440:BACT:
+    symbols:
+    - QUAD:LTUH:440:BACT
+    formula: QUAD:LTUH:440:BACT
+    proto: ca
+  QUAD:LTUH:460:BACT:
+    symbols:
+    - QUAD:LTUH:460:BACT
+    formula: QUAD:LTUH:460:BACT
+    proto: ca
+  QUAD:LTUH:485:BACT:
+    symbols:
+    - QUAD:LTUH:485:BACT
+    formula: QUAD:LTUH:485:BACT
+    proto: ca
+  QUAD:LTUH:495:BACT:
+    symbols:
+    - QUAD:LTUH:495:BACT
+    formula: QUAD:LTUH:495:BACT
+    proto: ca
+  QUAD:LTUH:585:BACT:
+    symbols:
+    - QUAD:LTUH:585:BACT
+    formula: QUAD:LTUH:585:BACT
+    proto: ca
+  QUAD:LTUH:595:BACT:
+    symbols:
+    - QUAD:LTUH:595:BACT
+    formula: QUAD:LTUH:595:BACT
+    proto: ca
+  QUAD:LTUH:665:BACT:
+    symbols:
+    - QUAD:LTUH:665:BACT
+    formula: QUAD:LTUH:665:BACT
+    proto: ca
+  QUAD:DMPH:300:BACT:
+    symbols:
+    - QUAD:DMPH:300:BACT
+    formula: QUAD:DMPH:300:BACT
+    proto: ca
+  QUAD:DMPH:380:BACT:
+    symbols:
+    - QUAD:DMPH:380:BACT
+    formula: QUAD:DMPH:380:BACT
+    proto: ca
+  QUAD:DMPH:500:BACT:
+    symbols:
+    - QUAD:DMPH:500:BACT
+    formula: QUAD:DMPH:500:BACT
+    proto: ca
+  QUAD:DMPH:600:BACT:
+    symbols:
+    - QUAD:DMPH:600:BACT
+    formula: QUAD:DMPH:600:BACT
+    proto: ca
+  QUAD:BSYH:465:BACT:
+    symbols:
+    - QUAD:BSYH:465:BACT
+    formula: QUAD:BSYH:465:BACT
+    proto: ca
+  QUAD:BSYH:640:BACT:
+    symbols:
+    - QUAD:BSYH:640:BACT
+    formula: QUAD:BSYH:640:BACT
+    proto: ca
+  QUAD:BSYH:735:BACT:
+    symbols:
+    - QUAD:BSYH:735:BACT
+    formula: QUAD:BSYH:735:BACT
+    proto: ca
+  QUAD:BSYH:910:BACT:
+    symbols:
+    - QUAD:BSYH:910:BACT
+    formula: QUAD:BSYH:910:BACT
+    proto: ca
+  QUAD:LTUH:110:BACT:
+    symbols:
+    - QUAD:LTUH:110:BACT
+    formula: QUAD:LTUH:110:BACT
+    proto: ca
+  QUAD:LTUH:120:BACT:
+    symbols:
+    - QUAD:LTUH:120:BACT
+    formula: QUAD:LTUH:120:BACT
+    proto: ca
+  QUAD:LTUH:180:BACT:
+    symbols:
+    - QUAD:LTUH:180:BACT
+    formula: QUAD:LTUH:180:BACT
+    proto: ca
+  QUAD:LTUH:190:BACT:
+    symbols:
+    - QUAD:LTUH:190:BACT
+    formula: QUAD:LTUH:190:BACT
+    proto: ca
+  QUAD:LTUH:130:BACT:
+    symbols:
+    - QUAD:LTUH:130:BACT
+    formula: QUAD:LTUH:130:BACT
+    proto: ca
+  QUAD:LTUH:150:BACT:
+    symbols:
+    - QUAD:LTUH:150:BACT
+    formula: QUAD:LTUH:150:BACT
+    proto: ca
+  QUAD:LTUH:170:BACT:
+    symbols:
+    - QUAD:LTUH:170:BACT
+    formula: QUAD:LTUH:170:BACT
+    proto: ca
+  QUAD:LTUH:350:BACT:
+    symbols:
+    - QUAD:LTUH:350:BACT
+    formula: QUAD:LTUH:350:BACT
+    proto: ca
+  QUAD:LTUH:450:BACT:
+    symbols:
+    - QUAD:LTUH:450:BACT
+    formula: QUAD:LTUH:450:BACT
+    proto: ca
+  QUAD:LTUH:550:BACT:
+    symbols:
+    - QUAD:LTUH:550:BACT
+    formula: QUAD:LTUH:550:BACT
+    proto: ca
+  QUAD:LTUH:290:BACT:
+    symbols:
+    - QUAD:LTUH:290:BACT
+    formula: QUAD:LTUH:290:BACT
+    proto: ca
+  QUAD:LTUH:390:BACT:
+    symbols:
+    - QUAD:LTUH:390:BACT
+    formula: QUAD:LTUH:390:BACT
+    proto: ca
+  QUAD:LTUH:490:BACT:
+    symbols:
+    - QUAD:LTUH:490:BACT
+    formula: QUAD:LTUH:490:BACT
+    proto: ca
+  QUAD:LTUH:590:BACT:
+    symbols:
+    - QUAD:LTUH:590:BACT
+    formula: QUAD:LTUH:590:BACT
+    proto: ca
+  QUAD:LTUH:250:BACT:
+    symbols:
+    - QUAD:LTUH:250:BACT
+    formula: QUAD:LTUH:250:BACT
+    proto: ca
+  QUAD:LTUH:620:BACT:
+    symbols:
+    - QUAD:LTUH:620:BACT
+    formula: QUAD:LTUH:620:BACT
+    proto: ca
+  QUAD:LTUH:640:BACT:
+    symbols:
+    - QUAD:LTUH:640:BACT
+    formula: QUAD:LTUH:640:BACT
+    proto: ca
+  QUAD:LTUH:660:BACT:
+    symbols:
+    - QUAD:LTUH:660:BACT
+    formula: QUAD:LTUH:660:BACT
+    proto: ca
+  QUAD:LTUH:680:BACT:
+    symbols:
+    - QUAD:LTUH:680:BACT
+    formula: QUAD:LTUH:680:BACT
+    proto: ca
+  QUAD:LTUH:720:BACT:
+    symbols:
+    - QUAD:LTUH:720:BACT
+    formula: QUAD:LTUH:720:BACT
+    proto: ca
+  QUAD:LTUH:730:BACT:
+    symbols:
+    - QUAD:LTUH:730:BACT
+    formula: QUAD:LTUH:730:BACT
+    proto: ca
+  QUAD:LTUH:740:BACT:
+    symbols:
+    - QUAD:LTUH:740:BACT
+    formula: QUAD:LTUH:740:BACT
+    proto: ca
+  QUAD:LTUH:750:BACT:
+    symbols:
+    - QUAD:LTUH:750:BACT
+    formula: QUAD:LTUH:750:BACT
+    proto: ca
+  QUAD:LTUH:760:BACT:
+    symbols:
+    - QUAD:LTUH:760:BACT
+    formula: QUAD:LTUH:760:BACT
+    proto: ca
+  QUAD:LTUH:770:BACT:
+    symbols:
+    - QUAD:LTUH:770:BACT
+    formula: QUAD:LTUH:770:BACT
+    proto: ca
+  QUAD:LTUH:820:BACT:
+    symbols:
+    - QUAD:LTUH:820:BACT
+    formula: QUAD:LTUH:820:BACT
+    proto: ca
+  QUAD:LTUH:840:BACT:
+    symbols:
+    - QUAD:LTUH:840:BACT
+    formula: QUAD:LTUH:840:BACT
+    proto: ca
+  QUAD:LTUH:860:BACT:
+    symbols:
+    - QUAD:LTUH:860:BACT
+    formula: QUAD:LTUH:860:BACT
+    proto: ca
+  QUAD:LTUH:880:BACT:
+    symbols:
+    - QUAD:LTUH:880:BACT
+    formula: QUAD:LTUH:880:BACT
+    proto: ca
+  QUAD:UNDH:1380:BACT:
+    symbols:
+    - QUAD:UNDH:1380:BACT
+    formula: QUAD:UNDH:1380:BACT
+    proto: ca
+  QUAD:UNDH:1480:BACT:
+    symbols:
+    - QUAD:UNDH:1480:BACT
+    formula: QUAD:UNDH:1480:BACT
+    proto: ca
+  QUAD:UNDH:1580:BACT:
+    symbols:
+    - QUAD:UNDH:1580:BACT
+    formula: QUAD:UNDH:1580:BACT
+    proto: ca
+  QUAD:UNDH:1680:BACT:
+    symbols:
+    - QUAD:UNDH:1680:BACT
+    formula: QUAD:UNDH:1680:BACT
+    proto: ca
+  QUAD:UNDH:1780:BACT:
+    symbols:
+    - QUAD:UNDH:1780:BACT
+    formula: QUAD:UNDH:1780:BACT
+    proto: ca
+  QUAD:UNDH:1880:BACT:
+    symbols:
+    - QUAD:UNDH:1880:BACT
+    formula: QUAD:UNDH:1880:BACT
+    proto: ca
+  QUAD:UNDH:1980:BACT:
+    symbols:
+    - QUAD:UNDH:1980:BACT
+    formula: QUAD:UNDH:1980:BACT
+    proto: ca
+  QUAD:UNDH:2080:BACT:
+    symbols:
+    - QUAD:UNDH:2080:BACT
+    formula: QUAD:UNDH:2080:BACT
+    proto: ca
+  QUAD:UNDH:2180:BACT:
+    symbols:
+    - QUAD:UNDH:2180:BACT
+    formula: QUAD:UNDH:2180:BACT
+    proto: ca
+  QUAD:UNDH:2280:BACT:
+    symbols:
+    - QUAD:UNDH:2280:BACT
+    formula: QUAD:UNDH:2280:BACT
+    proto: ca
+  QUAD:UNDH:2380:BACT:
+    symbols:
+    - QUAD:UNDH:2380:BACT
+    formula: QUAD:UNDH:2380:BACT
+    proto: ca
+  QUAD:UNDH:2480:BACT:
+    symbols:
+    - QUAD:UNDH:2480:BACT
+    formula: QUAD:UNDH:2480:BACT
+    proto: ca
+  QUAD:UNDH:2580:BACT:
+    symbols:
+    - QUAD:UNDH:2580:BACT
+    formula: QUAD:UNDH:2580:BACT
+    proto: ca
+  QUAD:UNDH:2680:BACT:
+    symbols:
+    - QUAD:UNDH:2680:BACT
+    formula: QUAD:UNDH:2680:BACT
+    proto: ca
+  QUAD:UNDH:2780:BACT:
+    symbols:
+    - QUAD:UNDH:2780:BACT
+    formula: QUAD:UNDH:2780:BACT
+    proto: ca
+  QUAD:UNDH:2880:BACT:
+    symbols:
+    - QUAD:UNDH:2880:BACT
+    formula: QUAD:UNDH:2880:BACT
+    proto: ca
+  QUAD:UNDH:2980:BACT:
+    symbols:
+    - QUAD:UNDH:2980:BACT
+    formula: QUAD:UNDH:2980:BACT
+    proto: ca
+  QUAD:UNDH:3080:BACT:
+    symbols:
+    - QUAD:UNDH:3080:BACT
+    formula: QUAD:UNDH:3080:BACT
+    proto: ca
+  QUAD:UNDH:3180:BACT:
+    symbols:
+    - QUAD:UNDH:3180:BACT
+    formula: QUAD:UNDH:3180:BACT
+    proto: ca
+  QUAD:UNDH:3280:BACT:
+    symbols:
+    - QUAD:UNDH:3280:BACT
+    formula: QUAD:UNDH:3280:BACT
+    proto: ca
+  QUAD:UNDH:3380:BACT:
+    symbols:
+    - QUAD:UNDH:3380:BACT
+    formula: QUAD:UNDH:3380:BACT
+    proto: ca
+  QUAD:UNDH:3480:BACT:
+    symbols:
+    - QUAD:UNDH:3480:BACT
+    formula: QUAD:UNDH:3480:BACT
+    proto: ca
+  QUAD:UNDH:3580:BACT:
+    symbols:
+    - QUAD:UNDH:3580:BACT
+    formula: QUAD:UNDH:3580:BACT
+    proto: ca
+  QUAD:UNDH:3680:BACT:
+    symbols:
+    - QUAD:UNDH:3680:BACT
+    formula: QUAD:UNDH:3680:BACT
+    proto: ca
+  QUAD:UNDH:3780:BACT:
+    symbols:
+    - QUAD:UNDH:3780:BACT
+    formula: QUAD:UNDH:3780:BACT
+    proto: ca
+  QUAD:UNDH:3880:BACT:
+    symbols:
+    - QUAD:UNDH:3880:BACT
+    formula: QUAD:UNDH:3880:BACT
+    proto: ca
+  QUAD:UNDH:3980:BACT:
+    symbols:
+    - QUAD:UNDH:3980:BACT
+    formula: QUAD:UNDH:3980:BACT
+    proto: ca
+  QUAD:UNDH:4080:BACT:
+    symbols:
+    - QUAD:UNDH:4080:BACT
+    formula: QUAD:UNDH:4080:BACT
+    proto: ca
+  QUAD:UNDH:4180:BACT:
+    symbols:
+    - QUAD:UNDH:4180:BACT
+    formula: QUAD:UNDH:4180:BACT
+    proto: ca
+  QUAD:UNDH:4280:BACT:
+    symbols:
+    - QUAD:UNDH:4280:BACT
+    formula: QUAD:UNDH:4280:BACT
+    proto: ca
+  QUAD:UNDH:4380:BACT:
+    symbols:
+    - QUAD:UNDH:4380:BACT
+    formula: QUAD:UNDH:4380:BACT
+    proto: ca
+  QUAD:UNDH:4480:BACT:
+    symbols:
+    - QUAD:UNDH:4480:BACT
+    formula: QUAD:UNDH:4480:BACT
+    proto: ca
+  QUAD:UNDH:4580:BACT:
+    symbols:
+    - QUAD:UNDH:4580:BACT
+    formula: QUAD:UNDH:4580:BACT
+    proto: ca
+  QUAD:UNDH:4680:BACT:
+    symbols:
+    - QUAD:UNDH:4680:BACT
+    formula: QUAD:UNDH:4680:BACT
+    proto: ca
+  QUAD:LI21:201:BACT:
+    symbols:
+    - QUAD:LI21:201:BACT
+    formula: QUAD:LI21:201:BACT
+    proto: ca
+  QUAD:LI21:301:BACT:
+    symbols:
+    - QUAD:LI21:301:BACT
+    formula: QUAD:LI21:301:BACT
+    proto: ca
+  QUAD:LI21:401:BACT:
+    symbols:
+    - QUAD:LI21:401:BACT
+    formula: QUAD:LI21:401:BACT
+    proto: ca
+  QUAD:LI21:501:BACT:
+    symbols:
+    - QUAD:LI21:501:BACT
+    formula: QUAD:LI21:501:BACT
+    proto: ca
+  QUAD:LI21:601:BACT:
+    symbols:
+    - QUAD:LI21:601:BACT
+    formula: QUAD:LI21:601:BACT
+    proto: ca
+  QUAD:LI21:701:BACT:
+    symbols:
+    - QUAD:LI21:701:BACT
+    formula: QUAD:LI21:701:BACT
+    proto: ca
+  QUAD:LI21:801:BACT:
+    symbols:
+    - QUAD:LI21:801:BACT
+    formula: QUAD:LI21:801:BACT
+    proto: ca
+  QUAD:LI21:901:BACT:
+    symbols:
+    - QUAD:LI21:901:BACT
+    formula: QUAD:LI21:901:BACT
+    proto: ca
+  QUAD:LI22:201:BACT:
+    symbols:
+    - QUAD:LI22:201:BACT
+    formula: QUAD:LI22:201:BACT
+    proto: ca
+  QUAD:LI22:301:BACT:
+    symbols:
+    - QUAD:LI22:301:BACT
+    formula: QUAD:LI22:301:BACT
+    proto: ca
+  QUAD:LI22:401:BACT:
+    symbols:
+    - QUAD:LI22:401:BACT
+    formula: QUAD:LI22:401:BACT
+    proto: ca
+  QUAD:LI22:501:BACT:
+    symbols:
+    - QUAD:LI22:501:BACT
+    formula: QUAD:LI22:501:BACT
+    proto: ca
+  QUAD:LI22:601:BACT:
+    symbols:
+    - QUAD:LI22:601:BACT
+    formula: QUAD:LI22:601:BACT
+    proto: ca
+  QUAD:LI22:701:BACT:
+    symbols:
+    - QUAD:LI22:701:BACT
+    formula: QUAD:LI22:701:BACT
+    proto: ca
+  QUAD:LI22:801:BACT:
+    symbols:
+    - QUAD:LI22:801:BACT
+    formula: QUAD:LI22:801:BACT
+    proto: ca
+  QUAD:LI22:901:BACT:
+    symbols:
+    - QUAD:LI22:901:BACT
+    formula: QUAD:LI22:901:BACT
+    proto: ca
+  QUAD:LI23:201:BACT:
+    symbols:
+    - QUAD:LI23:201:BACT
+    formula: QUAD:LI23:201:BACT
+    proto: ca
+  QUAD:LI23:301:BACT:
+    symbols:
+    - QUAD:LI23:301:BACT
+    formula: QUAD:LI23:301:BACT
+    proto: ca
+  QUAD:LI23:401:BACT:
+    symbols:
+    - QUAD:LI23:401:BACT
+    formula: QUAD:LI23:401:BACT
+    proto: ca
+  QUAD:LI23:501:BACT:
+    symbols:
+    - QUAD:LI23:501:BACT
+    formula: QUAD:LI23:501:BACT
+    proto: ca
+  QUAD:LI23:601:BACT:
+    symbols:
+    - QUAD:LI23:601:BACT
+    formula: QUAD:LI23:601:BACT
+    proto: ca
+  QUAD:LI23:701:BACT:
+    symbols:
+    - QUAD:LI23:701:BACT
+    formula: QUAD:LI23:701:BACT
+    proto: ca
+  QUAD:LI23:801:BACT:
+    symbols:
+    - QUAD:LI23:801:BACT
+    formula: QUAD:LI23:801:BACT
+    proto: ca
+  QUAD:LI23:901:BACT:
+    symbols:
+    - QUAD:LI23:901:BACT
+    formula: QUAD:LI23:901:BACT
+    proto: ca
+  QUAD:LI24:201:BACT:
+    symbols:
+    - QUAD:LI24:201:BACT
+    formula: QUAD:LI24:201:BACT
+    proto: ca
+  QUAD:LI24:301:BACT:
+    symbols:
+    - QUAD:LI24:301:BACT
+    formula: QUAD:LI24:301:BACT
+    proto: ca
+  QUAD:LI24:401:BACT:
+    symbols:
+    - QUAD:LI24:401:BACT
+    formula: QUAD:LI24:401:BACT
+    proto: ca
+  QUAD:LI24:501:BACT:
+    symbols:
+    - QUAD:LI24:501:BACT
+    formula: QUAD:LI24:501:BACT
+    proto: ca
+  QUAD:LI24:601:BACT:
+    symbols:
+    - QUAD:LI24:601:BACT
+    formula: QUAD:LI24:601:BACT
+    proto: ca
+  QUAD:LI25:201:BACT:
+    symbols:
+    - QUAD:LI25:201:BACT
+    formula: QUAD:LI25:201:BACT
+    proto: ca
+  QUAD:LI25:301:BACT:
+    symbols:
+    - QUAD:LI25:301:BACT
+    formula: QUAD:LI25:301:BACT
+    proto: ca
+  QUAD:LI25:401:BACT:
+    symbols:
+    - QUAD:LI25:401:BACT
+    formula: QUAD:LI25:401:BACT
+    proto: ca
+  QUAD:LI25:501:BACT:
+    symbols:
+    - QUAD:LI25:501:BACT
+    formula: QUAD:LI25:501:BACT
+    proto: ca
+  QUAD:LI25:601:BACT:
+    symbols:
+    - QUAD:LI25:601:BACT
+    formula: QUAD:LI25:601:BACT
+    proto: ca
+  QUAD:LI25:701:BACT:
+    symbols:
+    - QUAD:LI25:701:BACT
+    formula: QUAD:LI25:701:BACT
+    proto: ca
+  QUAD:LI25:801:BACT:
+    symbols:
+    - QUAD:LI25:801:BACT
+    formula: QUAD:LI25:801:BACT
+    proto: ca
+  QUAD:LI25:901:BACT:
+    symbols:
+    - QUAD:LI25:901:BACT
+    formula: QUAD:LI25:901:BACT
+    proto: ca
+  QUAD:LI26:201:BACT:
+    symbols:
+    - QUAD:LI26:201:BACT
+    formula: QUAD:LI26:201:BACT
+    proto: ca
+  QUAD:LI26:301:BACT:
+    symbols:
+    - QUAD:LI26:301:BACT
+    formula: QUAD:LI26:301:BACT
+    proto: ca
+  QUAD:LI26:401:BACT:
+    symbols:
+    - QUAD:LI26:401:BACT
+    formula: QUAD:LI26:401:BACT
+    proto: ca
+  QUAD:LI26:501:BACT:
+    symbols:
+    - QUAD:LI26:501:BACT
+    formula: QUAD:LI26:501:BACT
+    proto: ca
+  QUAD:LI26:601:BACT:
+    symbols:
+    - QUAD:LI26:601:BACT
+    formula: QUAD:LI26:601:BACT
+    proto: ca
+  QUAD:LI26:701:BACT:
+    symbols:
+    - QUAD:LI26:701:BACT
+    formula: QUAD:LI26:701:BACT
+    proto: ca
+  QUAD:LI26:801:BACT:
+    symbols:
+    - QUAD:LI26:801:BACT
+    formula: QUAD:LI26:801:BACT
+    proto: ca
+  QUAD:LI26:901:BACT:
+    symbols:
+    - QUAD:LI26:901:BACT
+    formula: QUAD:LI26:901:BACT
+    proto: ca
+  QUAD:LI27:201:BACT:
+    symbols:
+    - QUAD:LI27:201:BACT
+    formula: QUAD:LI27:201:BACT
+    proto: ca
+  QUAD:LI27:301:BACT:
+    symbols:
+    - QUAD:LI27:301:BACT
+    formula: QUAD:LI27:301:BACT
+    proto: ca
+  QUAD:LI27:401:BACT:
+    symbols:
+    - QUAD:LI27:401:BACT
+    formula: QUAD:LI27:401:BACT
+    proto: ca
+  QUAD:LI27:501:BACT:
+    symbols:
+    - QUAD:LI27:501:BACT
+    formula: QUAD:LI27:501:BACT
+    proto: ca
+  QUAD:LI27:601:BACT:
+    symbols:
+    - QUAD:LI27:601:BACT
+    formula: QUAD:LI27:601:BACT
+    proto: ca
+  QUAD:LI27:701:BACT:
+    symbols:
+    - QUAD:LI27:701:BACT
+    formula: QUAD:LI27:701:BACT
+    proto: ca
+  QUAD:LI27:801:BACT:
+    symbols:
+    - QUAD:LI27:801:BACT
+    formula: QUAD:LI27:801:BACT
+    proto: ca
+  QUAD:LI27:901:BACT:
+    symbols:
+    - QUAD:LI27:901:BACT
+    formula: QUAD:LI27:901:BACT
+    proto: ca
+  QUAD:LI28:201:BACT:
+    symbols:
+    - QUAD:LI28:201:BACT
+    formula: QUAD:LI28:201:BACT
+    proto: ca
+  QUAD:LI28:301:BACT:
+    symbols:
+    - QUAD:LI28:301:BACT
+    formula: QUAD:LI28:301:BACT
+    proto: ca
+  QUAD:LI28:401:BACT:
+    symbols:
+    - QUAD:LI28:401:BACT
+    formula: QUAD:LI28:401:BACT
+    proto: ca
+  QUAD:LI28:501:BACT:
+    symbols:
+    - QUAD:LI28:501:BACT
+    formula: QUAD:LI28:501:BACT
+    proto: ca
+  QUAD:LI28:601:BACT:
+    symbols:
+    - QUAD:LI28:601:BACT
+    formula: QUAD:LI28:601:BACT
+    proto: ca
+  QUAD:LI28:701:BACT:
+    symbols:
+    - QUAD:LI28:701:BACT
+    formula: QUAD:LI28:701:BACT
+    proto: ca
+  QUAD:LI28:801:BACT:
+    symbols:
+    - QUAD:LI28:801:BACT
+    formula: QUAD:LI28:801:BACT
+    proto: ca
+  QUAD:LI28:901:BACT:
+    symbols:
+    - QUAD:LI28:901:BACT
+    formula: QUAD:LI28:901:BACT
+    proto: ca
+  QUAD:LI29:201:BACT:
+    symbols:
+    - QUAD:LI29:201:BACT
+    formula: QUAD:LI29:201:BACT
+    proto: ca
+  QUAD:LI29:301:BACT:
+    symbols:
+    - QUAD:LI29:301:BACT
+    formula: QUAD:LI29:301:BACT
+    proto: ca
+  QUAD:LI29:401:BACT:
+    symbols:
+    - QUAD:LI29:401:BACT
+    formula: QUAD:LI29:401:BACT
+    proto: ca
+  QUAD:LI29:501:BACT:
+    symbols:
+    - QUAD:LI29:501:BACT
+    formula: QUAD:LI29:501:BACT
+    proto: ca
+  QUAD:LI29:601:BACT:
+    symbols:
+    - QUAD:LI29:601:BACT
+    formula: QUAD:LI29:601:BACT
+    proto: ca
+  QUAD:LI29:701:BACT:
+    symbols:
+    - QUAD:LI29:701:BACT
+    formula: QUAD:LI29:701:BACT
+    proto: ca
+  QUAD:LI29:801:BACT:
+    symbols:
+    - QUAD:LI29:801:BACT
+    formula: QUAD:LI29:801:BACT
+    proto: ca
+  QUAD:LI29:901:BACT:
+    symbols:
+    - QUAD:LI29:901:BACT
+    formula: QUAD:LI29:901:BACT
+    proto: ca
+  QUAD:LI30:201:BACT:
+    symbols:
+    - QUAD:LI30:201:BACT
+    formula: QUAD:LI30:201:BACT
+    proto: ca
+  QUAD:LI30:301:BACT:
+    symbols:
+    - QUAD:LI30:301:BACT
+    formula: QUAD:LI30:301:BACT
+    proto: ca
+  QUAD:LI30:401:BACT:
+    symbols:
+    - QUAD:LI30:401:BACT
+    formula: QUAD:LI30:401:BACT
+    proto: ca
+  QUAD:LI30:501:BACT:
+    symbols:
+    - QUAD:LI30:501:BACT
+    formula: QUAD:LI30:501:BACT
+    proto: ca
+  QUAD:LI30:601:BACT:
+    symbols:
+    - QUAD:LI30:601:BACT
+    formula: QUAD:LI30:601:BACT
+    proto: ca
+  QUAD:LI30:701:BACT:
+    symbols:
+    - QUAD:LI30:701:BACT
+    formula: QUAD:LI30:701:BACT
+    proto: ca
+  QUAD:LI30:801:BACT:
+    symbols:
+    - QUAD:LI30:801:BACT
+    formula: QUAD:LI30:801:BACT
+    proto: ca
+  QUAD:IN20:631:BACT:
+    symbols:
+    - QUAD:IN20:631:BACT
+    formula: QUAD:IN20:631:BACT
+    proto: ca
+  QUAD:IN20:651:BACT:
+    symbols:
+    - QUAD:IN20:651:BACT
+    formula: QUAD:IN20:651:BACT
+    proto: ca
+  QUAD:IN20:731:BACT:
+    symbols:
+    - QUAD:IN20:731:BACT
+    formula: QUAD:IN20:731:BACT
+    proto: ca
+  QUAD:IN20:771:BACT:
+    symbols:
+    - QUAD:IN20:771:BACT
+    formula: QUAD:IN20:771:BACT
+    proto: ca
+  QUAD:IN20:781:BACT:
+    symbols:
+    - QUAD:IN20:781:BACT
+    formula: QUAD:IN20:781:BACT
+    proto: ca
+  QUAD:LI21:131:BACT:
+    symbols:
+    - QUAD:LI21:131:BACT
+    formula: QUAD:LI21:131:BACT
+    proto: ca
+  QUAD:LI21:161:BACT:
+    symbols:
+    - QUAD:LI21:161:BACT
+    formula: QUAD:LI21:161:BACT
+    proto: ca
+  QUAD:LI21:278:BACT:
+    symbols:
+    - QUAD:LI21:278:BACT
+    formula: QUAD:LI21:278:BACT
+    proto: ca
+  QUAD:LI21:315:BACT:
+    symbols:
+    - QUAD:LI21:315:BACT
+    formula: QUAD:LI21:315:BACT
+    proto: ca
+  SOLN:IN20:121:BACT:
+    symbols:
+    - SOLN:IN20:121:BACT
+    formula: SOLN:IN20:121:BACT
+    proto: ca
+  SOLN:IN20:311:BACT:
+    symbols:
+    - SOLN:IN20:311:BACT
+    formula: SOLN:IN20:311:BACT
+    proto: ca
+  QUAD:IN20:121:BACT:
+    symbols:
+    - QUAD:IN20:121:BACT
+    formula: QUAD:IN20:121:BACT
+    proto: ca
+  QUAD:IN20:122:BACT:
+    symbols:
+    - QUAD:IN20:122:BACT
+    formula: QUAD:IN20:122:BACT
+    proto: ca
+  QUAD:IN20:361:BACT:
+    symbols:
+    - QUAD:IN20:361:BACT
+    formula: QUAD:IN20:361:BACT
+    proto: ca
+  QUAD:IN20:371:BACT:
+    symbols:
+    - QUAD:IN20:371:BACT
+    formula: QUAD:IN20:371:BACT
+    proto: ca
+  QUAD:IN20:425:BACT:
+    symbols:
+    - QUAD:IN20:425:BACT
+    formula: QUAD:IN20:425:BACT
+    proto: ca
+  QUAD:IN20:441:BACT:
+    symbols:
+    - QUAD:IN20:441:BACT
+    formula: QUAD:IN20:441:BACT
+    proto: ca
+  QUAD:IN20:511:BACT:
+    symbols:
+    - QUAD:IN20:511:BACT
+    formula: QUAD:IN20:511:BACT
+    proto: ca
+  QUAD:IN20:525:BACT:
+    symbols:
+    - QUAD:IN20:525:BACT
+    formula: QUAD:IN20:525:BACT
+    proto: ca
   ACCL:LI21:1:L1S_S_AV:
+    symbols:
+    - ACCL:LI21:1:L1S_S_AV
     formula: ACCL:LI21:1:L1S_S_AV
     proto: ca
+  ACCL:LI21:180:L1X_S_AV:
     symbols:
-      - ACCL:LI21:1:L1S_S_AV
-  ACCL:LI21:1:L1S_S_PV:
-    formula: ACCL:LI21:1:L1S_S_PV
+    - ACCL:LI21:180:L1X_S_AV
+    formula: ACCL:LI21:180:L1X_S_AV
     proto: ca
-    symbols:
-      - ACCL:LI21:1:L1S_S_PV
   ACCL:LI22:1:ADES:
+    symbols:
+    - ACCL:LI22:1:ADES
     formula: ACCL:LI22:1:ADES
     proto: ca
-    symbols:
-      - ACCL:LI22:1:ADES
-  ACCL:LI22:1:PDES:
-    formula: ACCL:LI22:1:PDES
-    proto: ca
-    symbols:
-      - ACCL:LI22:1:PDES
   ACCL:LI25:1:ADES:
+    symbols:
+    - ACCL:LI25:1:ADES
     formula: ACCL:LI25:1:ADES
     proto: ca
+  ACCL:LI21:1:L1S_S_PV:
     symbols:
-      - ACCL:LI25:1:ADES
-  ACCL:LI25:1:PDES:
-    formula: ACCL:LI25:1:PDES
+    - ACCL:LI21:1:L1S_S_PV
+    formula: ACCL:LI21:1:L1S_S_PV
     proto: ca
+  ACCL:LI21:180:L1X_S_PV:
     symbols:
-      - ACCL:LI25:1:PDES
+    - ACCL:LI21:180:L1X_S_PV
+    formula: ACCL:LI21:180:L1X_S_PV
+    proto: ca
+  ACCL:LI22:1:PDES:
+    symbols:
+    - ACCL:LI22:1:PDES
+    formula: ACCL:LI22:1:PDES
+    proto: ca
   CAMR:IN20:186:XRMS:
+    symbols:
+    - CAMR:IN20:186:XRMS
     formula: CAMR:IN20:186:XRMS
     proto: ca
-    symbols:
-      - CAMR:IN20:186:XRMS
   CAMR:IN20:186:YRMS:
+    symbols:
+    - CAMR:IN20:186:YRMS
     formula: CAMR:IN20:186:YRMS
     proto: ca
+  XCOR:UNDH:1380:BACT:
     symbols:
-      - CAMR:IN20:186:YRMS
-  PHAS:UNDH:1495:GapDes:
-    formula: PHAS:UNDH:1495:GapDes
+    - XCOR:UNDH:1380:BACT
+    formula: XCOR:UNDH:1380:BACT
     proto: ca
+  XCOR:UNDH:1480:BACT:
     symbols:
-      - PHAS:UNDH:1495:GapDes
-  PHAS:UNDH:1595:GapDes:
-    formula: PHAS:UNDH:1595:GapDes
+    - XCOR:UNDH:1480:BACT
+    formula: XCOR:UNDH:1480:BACT
     proto: ca
+  XCOR:UNDH:1580:BACT:
     symbols:
-      - PHAS:UNDH:1595:GapDes
-  PHAS:UNDH:1695:GapDes:
-    formula: PHAS:UNDH:1695:GapDes
+    - XCOR:UNDH:1580:BACT
+    formula: XCOR:UNDH:1580:BACT
     proto: ca
+  XCOR:UNDH:1680:BACT:
     symbols:
-      - PHAS:UNDH:1695:GapDes
-  PHAS:UNDH:1795:GapDes:
-    formula: PHAS:UNDH:1795:GapDes
+    - XCOR:UNDH:1680:BACT
+    formula: XCOR:UNDH:1680:BACT
     proto: ca
+  XCOR:UNDH:1780:BACT:
     symbols:
-      - PHAS:UNDH:1795:GapDes
-  PHAS:UNDH:1895:GapDes:
-    formula: PHAS:UNDH:1895:GapDes
+    - XCOR:UNDH:1780:BACT
+    formula: XCOR:UNDH:1780:BACT
     proto: ca
+  XCOR:UNDH:1880:BACT:
     symbols:
-      - PHAS:UNDH:1895:GapDes
-  PHAS:UNDH:1995:GapDes:
-    formula: PHAS:UNDH:1995:GapDes
+    - XCOR:UNDH:1880:BACT
+    formula: XCOR:UNDH:1880:BACT
     proto: ca
+  XCOR:UNDH:1980:BACT:
     symbols:
-      - PHAS:UNDH:1995:GapDes
-  PHAS:UNDH:2095:GapDes:
-    formula: PHAS:UNDH:2095:GapDes
+    - XCOR:UNDH:1980:BACT
+    formula: XCOR:UNDH:1980:BACT
     proto: ca
+  XCOR:UNDH:2080:BACT:
     symbols:
-      - PHAS:UNDH:2095:GapDes
-  PHAS:UNDH:2295:GapDes:
-    formula: PHAS:UNDH:2295:GapDes
+    - XCOR:UNDH:2080:BACT
+    formula: XCOR:UNDH:2080:BACT
     proto: ca
+  XCOR:UNDH:2180:BACT:
     symbols:
-      - PHAS:UNDH:2295:GapDes
-  PHAS:UNDH:2395:GapDes:
-    formula: PHAS:UNDH:2395:GapDes
+    - XCOR:UNDH:2180:BACT
+    formula: XCOR:UNDH:2180:BACT
     proto: ca
+  XCOR:UNDH:2280:BACT:
     symbols:
-      - PHAS:UNDH:2395:GapDes
-  PHAS:UNDH:2495:GapDes:
-    formula: PHAS:UNDH:2495:GapDes
+    - XCOR:UNDH:2280:BACT
+    formula: XCOR:UNDH:2280:BACT
     proto: ca
+  XCOR:UNDH:2380:BACT:
     symbols:
-      - PHAS:UNDH:2495:GapDes
-  PHAS:UNDH:2595:GapDes:
-    formula: PHAS:UNDH:2595:GapDes
+    - XCOR:UNDH:2380:BACT
+    formula: XCOR:UNDH:2380:BACT
     proto: ca
+  XCOR:UNDH:2480:BACT:
     symbols:
-      - PHAS:UNDH:2595:GapDes
-  PHAS:UNDH:2695:GapDes:
-    formula: PHAS:UNDH:2695:GapDes
+    - XCOR:UNDH:2480:BACT
+    formula: XCOR:UNDH:2480:BACT
     proto: ca
+  XCOR:UNDH:2580:BACT:
     symbols:
-      - PHAS:UNDH:2695:GapDes
-  PHAS:UNDH:2795:GapDes:
-    formula: PHAS:UNDH:2795:GapDes
+    - XCOR:UNDH:2580:BACT
+    formula: XCOR:UNDH:2580:BACT
     proto: ca
+  XCOR:UNDH:2680:BACT:
     symbols:
-      - PHAS:UNDH:2795:GapDes
-  PHAS:UNDH:2995:GapDes:
-    formula: PHAS:UNDH:2995:GapDes
+    - XCOR:UNDH:2680:BACT
+    formula: XCOR:UNDH:2680:BACT
     proto: ca
+  XCOR:UNDH:2780:BACT:
     symbols:
-      - PHAS:UNDH:2995:GapDes
-  PHAS:UNDH:3095:GapDes:
-    formula: PHAS:UNDH:3095:GapDes
+    - XCOR:UNDH:2780:BACT
+    formula: XCOR:UNDH:2780:BACT
     proto: ca
+  XCOR:UNDH:2880:BACT:
     symbols:
-      - PHAS:UNDH:3095:GapDes
-  PHAS:UNDH:3195:GapDes:
-    formula: PHAS:UNDH:3195:GapDes
+    - XCOR:UNDH:2880:BACT
+    formula: XCOR:UNDH:2880:BACT
     proto: ca
+  XCOR:UNDH:2980:BACT:
     symbols:
-      - PHAS:UNDH:3195:GapDes
-  PHAS:UNDH:3295:GapDes:
-    formula: PHAS:UNDH:3295:GapDes
+    - XCOR:UNDH:2980:BACT
+    formula: XCOR:UNDH:2980:BACT
     proto: ca
+  XCOR:UNDH:3080:BACT:
     symbols:
-      - PHAS:UNDH:3295:GapDes
-  PHAS:UNDH:3395:GapDes:
-    formula: PHAS:UNDH:3395:GapDes
+    - XCOR:UNDH:3080:BACT
+    formula: XCOR:UNDH:3080:BACT
     proto: ca
+  XCOR:UNDH:3180:BACT:
     symbols:
-      - PHAS:UNDH:3395:GapDes
-  PHAS:UNDH:3495:GapDes:
-    formula: PHAS:UNDH:3495:GapDes
+    - XCOR:UNDH:3180:BACT
+    formula: XCOR:UNDH:3180:BACT
     proto: ca
+  XCOR:UNDH:3280:BACT:
     symbols:
-      - PHAS:UNDH:3495:GapDes
-  PHAS:UNDH:3595:GapDes:
-    formula: PHAS:UNDH:3595:GapDes
+    - XCOR:UNDH:3280:BACT
+    formula: XCOR:UNDH:3280:BACT
     proto: ca
+  XCOR:UNDH:3380:BACT:
     symbols:
-      - PHAS:UNDH:3595:GapDes
-  PHAS:UNDH:3695:GapDes:
-    formula: PHAS:UNDH:3695:GapDes
+    - XCOR:UNDH:3380:BACT
+    formula: XCOR:UNDH:3380:BACT
     proto: ca
+  XCOR:UNDH:3480:BACT:
     symbols:
-      - PHAS:UNDH:3695:GapDes
-  PHAS:UNDH:3795:GapDes:
-    formula: PHAS:UNDH:3795:GapDes
+    - XCOR:UNDH:3480:BACT
+    formula: XCOR:UNDH:3480:BACT
     proto: ca
+  XCOR:UNDH:3580:BACT:
     symbols:
-      - PHAS:UNDH:3795:GapDes
-  PHAS:UNDH:3895:GapDes:
-    formula: PHAS:UNDH:3895:GapDes
+    - XCOR:UNDH:3580:BACT
+    formula: XCOR:UNDH:3580:BACT
     proto: ca
+  XCOR:UNDH:3680:BACT:
     symbols:
-      - PHAS:UNDH:3895:GapDes
-  PHAS:UNDH:3995:GapDes:
-    formula: PHAS:UNDH:3995:GapDes
+    - XCOR:UNDH:3680:BACT
+    formula: XCOR:UNDH:3680:BACT
     proto: ca
+  XCOR:UNDH:3780:BACT:
     symbols:
-      - PHAS:UNDH:3995:GapDes
-  PHAS:UNDH:4095:GapDes:
-    formula: PHAS:UNDH:4095:GapDes
+    - XCOR:UNDH:3780:BACT
+    formula: XCOR:UNDH:3780:BACT
     proto: ca
+  XCOR:UNDH:3880:BACT:
     symbols:
-      - PHAS:UNDH:4095:GapDes
-  PHAS:UNDH:4195:GapDes:
-    formula: PHAS:UNDH:4195:GapDes
+    - XCOR:UNDH:3880:BACT
+    formula: XCOR:UNDH:3880:BACT
     proto: ca
+  XCOR:UNDH:3980:BACT:
     symbols:
-      - PHAS:UNDH:4195:GapDes
-  PHAS:UNDH:4295:GapDes:
-    formula: PHAS:UNDH:4295:GapDes
+    - XCOR:UNDH:3980:BACT
+    formula: XCOR:UNDH:3980:BACT
     proto: ca
+  XCOR:UNDH:4080:BACT:
     symbols:
-      - PHAS:UNDH:4295:GapDes
-  PHAS:UNDH:4395:GapDes:
-    formula: PHAS:UNDH:4395:GapDes
+    - XCOR:UNDH:4080:BACT
+    formula: XCOR:UNDH:4080:BACT
     proto: ca
+  XCOR:UNDH:4180:BACT:
     symbols:
-      - PHAS:UNDH:4395:GapDes
-  PHAS:UNDH:4495:GapDes:
-    formula: PHAS:UNDH:4495:GapDes
+    - XCOR:UNDH:4180:BACT
+    formula: XCOR:UNDH:4180:BACT
     proto: ca
+  XCOR:UNDH:4280:BACT:
     symbols:
-      - PHAS:UNDH:4495:GapDes
-  PHAS:UNDH:4595:GapDes:
-    formula: PHAS:UNDH:4595:GapDes
+    - XCOR:UNDH:4280:BACT
+    formula: XCOR:UNDH:4280:BACT
     proto: ca
+  XCOR:UNDH:4380:BACT:
     symbols:
-      - PHAS:UNDH:4595:GapDes
-  PHAS:UNDH:4695:GapDes:
-    formula: PHAS:UNDH:4695:GapDes
+    - XCOR:UNDH:4380:BACT
+    formula: XCOR:UNDH:4380:BACT
     proto: ca
+  XCOR:UNDH:4480:BACT:
     symbols:
-      - PHAS:UNDH:4695:GapDes
-  QUAD:IN20:121:BCTRL:
-    formula: QUAD:IN20:121:BCTRL
+    - XCOR:UNDH:4480:BACT
+    formula: XCOR:UNDH:4480:BACT
     proto: ca
+  XCOR:UNDH:4580:BACT:
     symbols:
-      - QUAD:IN20:121:BCTRL
-  QUAD:IN20:122:BCTRL:
-    formula: QUAD:IN20:122:BCTRL
+    - XCOR:UNDH:4580:BACT
+    formula: XCOR:UNDH:4580:BACT
     proto: ca
+  XCOR:UNDH:4680:BACT:
     symbols:
-      - QUAD:IN20:122:BCTRL
-  QUAD:IN20:361:BCTRL:
-    formula: QUAD:IN20:361:BCTRL
+    - XCOR:UNDH:4680:BACT
+    formula: XCOR:UNDH:4680:BACT
     proto: ca
+  XCOR:UNDH:4780:BACT:
     symbols:
-      - QUAD:IN20:361:BCTRL
-  QUAD:IN20:371:BCTRL:
-    formula: QUAD:IN20:371:BCTRL
+    - XCOR:UNDH:4780:BACT
+    formula: XCOR:UNDH:4780:BACT
     proto: ca
+  YCOR:UNDH:1380:BACT:
     symbols:
-      - QUAD:IN20:371:BCTRL
-  QUAD:IN20:425:BCTRL:
-    formula: QUAD:IN20:425:BCTRL
+    - YCOR:UNDH:1380:BACT
+    formula: YCOR:UNDH:1380:BACT
     proto: ca
+  YCOR:UNDH:1480:BACT:
     symbols:
-      - QUAD:IN20:425:BCTRL
-  QUAD:IN20:441:BCTRL:
-    formula: QUAD:IN20:441:BCTRL
+    - YCOR:UNDH:1480:BACT
+    formula: YCOR:UNDH:1480:BACT
     proto: ca
+  YCOR:UNDH:1580:BACT:
     symbols:
-      - QUAD:IN20:441:BCTRL
-  QUAD:IN20:511:BCTRL:
-    formula: QUAD:IN20:511:BCTRL
+    - YCOR:UNDH:1580:BACT
+    formula: YCOR:UNDH:1580:BACT
     proto: ca
+  YCOR:UNDH:1680:BACT:
     symbols:
-      - QUAD:IN20:511:BCTRL
-  QUAD:IN20:525:BCTRL:
-    formula: QUAD:IN20:525:BCTRL
+    - YCOR:UNDH:1680:BACT
+    formula: YCOR:UNDH:1680:BACT
     proto: ca
+  YCOR:UNDH:1780:BACT:
     symbols:
-      - QUAD:IN20:525:BCTRL
-  QUAD:IN20:771:BCTRL:
-    formula: QUAD:IN20:771:BCTRL
+    - YCOR:UNDH:1780:BACT
+    formula: YCOR:UNDH:1780:BACT
     proto: ca
+  YCOR:UNDH:1880:BACT:
     symbols:
-      - QUAD:IN20:771:BCTRL
-  QUAD:LI21:131:BCTRL:
-    formula: QUAD:LI21:131:BCTRL
+    - YCOR:UNDH:1880:BACT
+    formula: YCOR:UNDH:1880:BACT
     proto: ca
+  YCOR:UNDH:1980:BACT:
     symbols:
-      - QUAD:LI21:131:BCTRL
-  QUAD:LI21:161:BCTRL:
-    formula: QUAD:LI21:161:BCTRL
+    - YCOR:UNDH:1980:BACT
+    formula: YCOR:UNDH:1980:BACT
     proto: ca
+  YCOR:UNDH:2080:BACT:
     symbols:
-      - QUAD:LI21:161:BCTRL
-  QUAD:LI21:201:BCTRL:
-    formula: QUAD:LI21:201:BCTRL
+    - YCOR:UNDH:2080:BACT
+    formula: YCOR:UNDH:2080:BACT
     proto: ca
+  YCOR:UNDH:2180:BACT:
     symbols:
-      - QUAD:LI21:201:BCTRL
-  QUAD:LI21:211:BCTRL:
-    formula: QUAD:LI21:211:BCTRL
+    - YCOR:UNDH:2180:BACT
+    formula: YCOR:UNDH:2180:BACT
     proto: ca
+  YCOR:UNDH:2280:BACT:
     symbols:
-      - QUAD:LI21:211:BCTRL
-  QUAD:LI21:221:BCTRL:
-    formula: QUAD:LI21:221:BCTRL
+    - YCOR:UNDH:2280:BACT
+    formula: YCOR:UNDH:2280:BACT
     proto: ca
+  YCOR:UNDH:2380:BACT:
     symbols:
-      - QUAD:LI21:221:BCTRL
-  QUAD:LI21:251:BCTRL:
-    formula: QUAD:LI21:251:BCTRL
+    - YCOR:UNDH:2380:BACT
+    formula: YCOR:UNDH:2380:BACT
     proto: ca
+  YCOR:UNDH:2480:BACT:
     symbols:
-      - QUAD:LI21:251:BCTRL
-  QUAD:LI21:271:BCTRL:
-    formula: QUAD:LI21:271:BCTRL
+    - YCOR:UNDH:2480:BACT
+    formula: YCOR:UNDH:2480:BACT
     proto: ca
+  YCOR:UNDH:2580:BACT:
     symbols:
-      - QUAD:LI21:271:BCTRL
-  QUAD:LI21:278:BCTRL:
-    formula: QUAD:LI21:278:BCTRL
+    - YCOR:UNDH:2580:BACT
+    formula: YCOR:UNDH:2580:BACT
     proto: ca
+  YCOR:UNDH:2680:BACT:
     symbols:
-      - QUAD:LI21:278:BCTRL
-  QUAD:LI21:335:BCTRL:
-    formula: QUAD:LI21:335:BCTRL
+    - YCOR:UNDH:2680:BACT
+    formula: YCOR:UNDH:2680:BACT
     proto: ca
+  YCOR:UNDH:2780:BACT:
     symbols:
-      - QUAD:LI21:335:BCTRL
-  QUAD:LI21:401:BCTRL:
-    formula: QUAD:LI21:401:BCTRL
+    - YCOR:UNDH:2780:BACT
+    formula: YCOR:UNDH:2780:BACT
     proto: ca
+  YCOR:UNDH:2880:BACT:
     symbols:
-      - QUAD:LI21:401:BCTRL
-  QUAD:LI21:501:BCTRL:
-    formula: QUAD:LI21:501:BCTRL
+    - YCOR:UNDH:2880:BACT
+    formula: YCOR:UNDH:2880:BACT
     proto: ca
+  YCOR:UNDH:2980:BACT:
     symbols:
-      - QUAD:LI21:501:BCTRL
-  QUAD:LI21:601:BCTRL:
-    formula: QUAD:LI21:601:BCTRL
+    - YCOR:UNDH:2980:BACT
+    formula: YCOR:UNDH:2980:BACT
     proto: ca
+  YCOR:UNDH:3080:BACT:
     symbols:
-      - QUAD:LI21:601:BCTRL
-  QUAD:LI21:701:BCTRL:
-    formula: QUAD:LI21:701:BCTRL
+    - YCOR:UNDH:3080:BACT
+    formula: YCOR:UNDH:3080:BACT
     proto: ca
+  YCOR:UNDH:3180:BACT:
     symbols:
-      - QUAD:LI21:701:BCTRL
-  QUAD:LI21:801:BCTRL:
-    formula: QUAD:LI21:801:BCTRL
+    - YCOR:UNDH:3180:BACT
+    formula: YCOR:UNDH:3180:BACT
     proto: ca
+  YCOR:UNDH:3280:BACT:
     symbols:
-      - QUAD:LI21:801:BCTRL
-  QUAD:LI21:901:BCTRL:
-    formula: QUAD:LI21:901:BCTRL
+    - YCOR:UNDH:3280:BACT
+    formula: YCOR:UNDH:3280:BACT
     proto: ca
+  YCOR:UNDH:3380:BACT:
     symbols:
-      - QUAD:LI21:901:BCTRL
-  QUAD:LI22:201:BCTRL:
-    formula: QUAD:LI22:201:BCTRL
+    - YCOR:UNDH:3380:BACT
+    formula: YCOR:UNDH:3380:BACT
     proto: ca
+  YCOR:UNDH:3480:BACT:
     symbols:
-      - QUAD:LI22:201:BCTRL
-  QUAD:LI22:301:BCTRL:
-    formula: QUAD:LI22:301:BCTRL
+    - YCOR:UNDH:3480:BACT
+    formula: YCOR:UNDH:3480:BACT
     proto: ca
+  YCOR:UNDH:3580:BACT:
     symbols:
-      - QUAD:LI22:301:BCTRL
-  QUAD:LI22:401:BCTRL:
-    formula: QUAD:LI22:401:BCTRL
+    - YCOR:UNDH:3580:BACT
+    formula: YCOR:UNDH:3580:BACT
     proto: ca
+  YCOR:UNDH:3680:BACT:
     symbols:
-      - QUAD:LI22:401:BCTRL
-  QUAD:LI22:501:BCTRL:
-    formula: QUAD:LI22:501:BCTRL
+    - YCOR:UNDH:3680:BACT
+    formula: YCOR:UNDH:3680:BACT
     proto: ca
+  YCOR:UNDH:3780:BACT:
     symbols:
-      - QUAD:LI22:501:BCTRL
-  QUAD:LI22:601:BCTRL:
-    formula: QUAD:LI22:601:BCTRL
+    - YCOR:UNDH:3780:BACT
+    formula: YCOR:UNDH:3780:BACT
     proto: ca
+  YCOR:UNDH:3880:BACT:
     symbols:
-      - QUAD:LI22:601:BCTRL
-  QUAD:LI22:701:BCTRL:
-    formula: QUAD:LI22:701:BCTRL
+    - YCOR:UNDH:3880:BACT
+    formula: YCOR:UNDH:3880:BACT
     proto: ca
+  YCOR:UNDH:3980:BACT:
     symbols:
-      - QUAD:LI22:701:BCTRL
-  QUAD:LI22:801:BCTRL:
-    formula: QUAD:LI22:801:BCTRL
+    - YCOR:UNDH:3980:BACT
+    formula: YCOR:UNDH:3980:BACT
     proto: ca
+  YCOR:UNDH:4080:BACT:
     symbols:
-      - QUAD:LI22:801:BCTRL
-  QUAD:LI22:901:BCTRL:
-    formula: QUAD:LI22:901:BCTRL
+    - YCOR:UNDH:4080:BACT
+    formula: YCOR:UNDH:4080:BACT
     proto: ca
+  YCOR:UNDH:4180:BACT:
     symbols:
-      - QUAD:LI22:901:BCTRL
-  QUAD:LI23:201:BCTRL:
-    formula: QUAD:LI23:201:BCTRL
+    - YCOR:UNDH:4180:BACT
+    formula: YCOR:UNDH:4180:BACT
     proto: ca
+  YCOR:UNDH:4280:BACT:
     symbols:
-      - QUAD:LI23:201:BCTRL
-  QUAD:LI23:301:BCTRL:
-    formula: QUAD:LI23:301:BCTRL
+    - YCOR:UNDH:4280:BACT
+    formula: YCOR:UNDH:4280:BACT
     proto: ca
+  YCOR:UNDH:4380:BACT:
     symbols:
-      - QUAD:LI23:301:BCTRL
-  QUAD:LI23:401:BCTRL:
-    formula: QUAD:LI23:401:BCTRL
+    - YCOR:UNDH:4380:BACT
+    formula: YCOR:UNDH:4380:BACT
     proto: ca
+  YCOR:UNDH:4480:BACT:
     symbols:
-      - QUAD:LI23:401:BCTRL
-  QUAD:LI23:501:BCTRL:
-    formula: QUAD:LI23:501:BCTRL
+    - YCOR:UNDH:4480:BACT
+    formula: YCOR:UNDH:4480:BACT
     proto: ca
+  YCOR:UNDH:4580:BACT:
     symbols:
-      - QUAD:LI23:501:BCTRL
-  QUAD:LI23:601:BCTRL:
-    formula: QUAD:LI23:601:BCTRL
+    - YCOR:UNDH:4580:BACT
+    formula: YCOR:UNDH:4580:BACT
     proto: ca
+  YCOR:UNDH:4680:BACT:
     symbols:
-      - QUAD:LI23:601:BCTRL
-  QUAD:LI23:701:BCTRL:
-    formula: QUAD:LI23:701:BCTRL
+    - YCOR:UNDH:4680:BACT
+    formula: YCOR:UNDH:4680:BACT
     proto: ca
+  YCOR:UNDH:4780:BACT:
     symbols:
-      - QUAD:LI23:701:BCTRL
-  QUAD:LI23:801:BCTRL:
-    formula: QUAD:LI23:801:BCTRL
+    - YCOR:UNDH:4780:BACT
+    formula: YCOR:UNDH:4780:BACT
     proto: ca
+  PHAS:UNDH:1495:GapAct:
     symbols:
-      - QUAD:LI23:801:BCTRL
-  QUAD:LI23:901:BCTRL:
-    formula: QUAD:LI23:901:BCTRL
+    - PHAS:UNDH:1495:GapAct
+    formula: PHAS:UNDH:1495:GapAct
     proto: ca
+  PHAS:UNDH:1595:GapAct:
     symbols:
-      - QUAD:LI23:901:BCTRL
-  QUAD:LI24:201:BCTRL:
-    formula: QUAD:LI24:201:BCTRL
+    - PHAS:UNDH:1595:GapAct
+    formula: PHAS:UNDH:1595:GapAct
     proto: ca
+  PHAS:UNDH:1695:GapAct:
     symbols:
-      - QUAD:LI24:201:BCTRL
-  QUAD:LI24:301:BCTRL:
-    formula: QUAD:LI24:301:BCTRL
+    - PHAS:UNDH:1695:GapAct
+    formula: PHAS:UNDH:1695:GapAct
     proto: ca
+  PHAS:UNDH:1795:GapAct:
     symbols:
-      - QUAD:LI24:301:BCTRL
-  QUAD:LI24:401:BCTRL:
-    formula: QUAD:LI24:401:BCTRL
+    - PHAS:UNDH:1795:GapAct
+    formula: PHAS:UNDH:1795:GapAct
     proto: ca
+  PHAS:UNDH:1895:GapAct:
     symbols:
-      - QUAD:LI24:401:BCTRL
-  QUAD:LI24:501:BCTRL:
-    formula: QUAD:LI24:501:BCTRL
+    - PHAS:UNDH:1895:GapAct
+    formula: PHAS:UNDH:1895:GapAct
     proto: ca
+  PHAS:UNDH:1995:GapAct:
     symbols:
-      - QUAD:LI24:501:BCTRL
-  QUAD:LI24:740:BCTRL:
-    formula: QUAD:LI24:740:BCTRL
+    - PHAS:UNDH:1995:GapAct
+    formula: PHAS:UNDH:1995:GapAct
     proto: ca
+  PHAS:UNDH:2095:GapAct:
     symbols:
-      - QUAD:LI24:740:BCTRL
-  QUAD:LI24:860:BCTRL:
-    formula: QUAD:LI24:860:BCTRL
+    - PHAS:UNDH:2095:GapAct
+    formula: PHAS:UNDH:2095:GapAct
     proto: ca
+  PHAS:UNDH:2295:GapAct:
     symbols:
-      - QUAD:LI24:860:BCTRL
-  QUAD:LI25:301:BCTRL:
-    formula: QUAD:LI25:301:BCTRL
+    - PHAS:UNDH:2295:GapAct
+    formula: PHAS:UNDH:2295:GapAct
     proto: ca
+  PHAS:UNDH:2395:GapAct:
     symbols:
-      - QUAD:LI25:301:BCTRL
-  QUAD:LI25:401:BCTRL:
-    formula: QUAD:LI25:401:BCTRL
+    - PHAS:UNDH:2395:GapAct
+    formula: PHAS:UNDH:2395:GapAct
     proto: ca
+  PHAS:UNDH:2495:GapAct:
     symbols:
-      - QUAD:LI25:401:BCTRL
-  QUAD:LI25:501:BCTRL:
-    formula: QUAD:LI25:501:BCTRL
+    - PHAS:UNDH:2495:GapAct
+    formula: PHAS:UNDH:2495:GapAct
     proto: ca
+  PHAS:UNDH:2595:GapAct:
     symbols:
-      - QUAD:LI25:501:BCTRL
-  QUAD:LI25:601:BCTRL:
-    formula: QUAD:LI25:601:BCTRL
+    - PHAS:UNDH:2595:GapAct
+    formula: PHAS:UNDH:2595:GapAct
     proto: ca
+  PHAS:UNDH:2695:GapAct:
     symbols:
-      - QUAD:LI25:601:BCTRL
-  QUAD:LI25:701:BCTRL:
-    formula: QUAD:LI25:701:BCTRL
+    - PHAS:UNDH:2695:GapAct
+    formula: PHAS:UNDH:2695:GapAct
     proto: ca
+  PHAS:UNDH:2795:GapAct:
     symbols:
-      - QUAD:LI25:701:BCTRL
-  QUAD:LI25:801:BCTRL:
-    formula: QUAD:LI25:801:BCTRL
+    - PHAS:UNDH:2795:GapAct
+    formula: PHAS:UNDH:2795:GapAct
     proto: ca
+  PHAS:UNDH:2995:GapAct:
     symbols:
-      - QUAD:LI25:801:BCTRL
-  QUAD:LI25:901:BCTRL:
-    formula: QUAD:LI25:901:BCTRL
+    - PHAS:UNDH:2995:GapAct
+    formula: PHAS:UNDH:2995:GapAct
     proto: ca
+  PHAS:UNDH:3095:GapAct:
     symbols:
-      - QUAD:LI25:901:BCTRL
-  QUAD:LI26:201:BCTRL:
-    formula: QUAD:LI26:201:BCTRL
+    - PHAS:UNDH:3095:GapAct
+    formula: PHAS:UNDH:3095:GapAct
     proto: ca
+  PHAS:UNDH:3195:GapAct:
     symbols:
-      - QUAD:LI26:201:BCTRL
-  QUAD:LI26:301:BCTRL:
-    formula: QUAD:LI26:301:BCTRL
+    - PHAS:UNDH:3195:GapAct
+    formula: PHAS:UNDH:3195:GapAct
     proto: ca
+  PHAS:UNDH:3295:GapAct:
     symbols:
-      - QUAD:LI26:301:BCTRL
-  QUAD:LI26:401:BCTRL:
-    formula: QUAD:LI26:401:BCTRL
+    - PHAS:UNDH:3295:GapAct
+    formula: PHAS:UNDH:3295:GapAct
     proto: ca
+  PHAS:UNDH:3395:GapAct:
     symbols:
-      - QUAD:LI26:401:BCTRL
-  QUAD:LI26:501:BCTRL:
-    formula: QUAD:LI26:501:BCTRL
+    - PHAS:UNDH:3395:GapAct
+    formula: PHAS:UNDH:3395:GapAct
     proto: ca
+  PHAS:UNDH:3495:GapAct:
     symbols:
-      - QUAD:LI26:501:BCTRL
-  QUAD:LI26:601:BCTRL:
-    formula: QUAD:LI26:601:BCTRL
+    - PHAS:UNDH:3495:GapAct
+    formula: PHAS:UNDH:3495:GapAct
     proto: ca
+  PHAS:UNDH:3595:GapAct:
     symbols:
-      - QUAD:LI26:601:BCTRL
-  QUAD:LI26:701:BCTRL:
-    formula: QUAD:LI26:701:BCTRL
+    - PHAS:UNDH:3595:GapAct
+    formula: PHAS:UNDH:3595:GapAct
     proto: ca
+  PHAS:UNDH:3695:GapAct:
     symbols:
-      - QUAD:LI26:701:BCTRL
-  QUAD:LI26:801:BCTRL:
-    formula: QUAD:LI26:801:BCTRL
+    - PHAS:UNDH:3695:GapAct
+    formula: PHAS:UNDH:3695:GapAct
     proto: ca
+  PHAS:UNDH:3795:GapAct:
     symbols:
-      - QUAD:LI26:801:BCTRL
-  QUAD:LI26:901:BCTRL:
-    formula: QUAD:LI26:901:BCTRL
+    - PHAS:UNDH:3795:GapAct
+    formula: PHAS:UNDH:3795:GapAct
     proto: ca
+  PHAS:UNDH:3895:GapAct:
     symbols:
-      - QUAD:LI26:901:BCTRL
-  QUAD:LI27:201:BCTRL:
-    formula: QUAD:LI27:201:BCTRL
+    - PHAS:UNDH:3895:GapAct
+    formula: PHAS:UNDH:3895:GapAct
     proto: ca
+  PHAS:UNDH:3995:GapAct:
     symbols:
-      - QUAD:LI27:201:BCTRL
-  QUAD:LI27:301:BCTRL:
-    formula: QUAD:LI27:301:BCTRL
+    - PHAS:UNDH:3995:GapAct
+    formula: PHAS:UNDH:3995:GapAct
     proto: ca
+  PHAS:UNDH:4095:GapAct:
     symbols:
-      - QUAD:LI27:301:BCTRL
-  QUAD:LI27:401:BCTRL:
-    formula: QUAD:LI27:401:BCTRL
+    - PHAS:UNDH:4095:GapAct
+    formula: PHAS:UNDH:4095:GapAct
     proto: ca
+  PHAS:UNDH:4195:GapAct:
     symbols:
-      - QUAD:LI27:401:BCTRL
-  QUAD:LI27:501:BCTRL:
-    formula: QUAD:LI27:501:BCTRL
+    - PHAS:UNDH:4195:GapAct
+    formula: PHAS:UNDH:4195:GapAct
     proto: ca
+  PHAS:UNDH:4295:GapAct:
     symbols:
-      - QUAD:LI27:501:BCTRL
-  QUAD:LI27:601:BCTRL:
-    formula: QUAD:LI27:601:BCTRL
+    - PHAS:UNDH:4295:GapAct
+    formula: PHAS:UNDH:4295:GapAct
     proto: ca
+  PHAS:UNDH:4395:GapAct:
     symbols:
-      - QUAD:LI27:601:BCTRL
-  QUAD:LI27:701:BCTRL:
-    formula: QUAD:LI27:701:BCTRL
+    - PHAS:UNDH:4395:GapAct
+    formula: PHAS:UNDH:4395:GapAct
     proto: ca
+  PHAS:UNDH:4495:GapAct:
     symbols:
-      - QUAD:LI27:701:BCTRL
-  QUAD:LI27:801:BCTRL:
-    formula: QUAD:LI27:801:BCTRL
+    - PHAS:UNDH:4495:GapAct
+    formula: PHAS:UNDH:4495:GapAct
     proto: ca
+  PHAS:UNDH:4595:GapAct:
     symbols:
-      - QUAD:LI27:801:BCTRL
-  QUAD:LI27:901:BCTRL:
-    formula: QUAD:LI27:901:BCTRL
+    - PHAS:UNDH:4595:GapAct
+    formula: PHAS:UNDH:4595:GapAct
     proto: ca
+  PHAS:UNDH:4695:GapAct:
     symbols:
-      - QUAD:LI27:901:BCTRL
-  QUAD:LI28:201:BCTRL:
-    formula: QUAD:LI28:201:BCTRL
+    - PHAS:UNDH:4695:GapAct
+    formula: PHAS:UNDH:4695:GapAct
     proto: ca
+  USEG:UNDH:1450:GapAct:
     symbols:
-      - QUAD:LI28:201:BCTRL
-  QUAD:LI28:301:BCTRL:
-    formula: QUAD:LI28:301:BCTRL
+    - USEG:UNDH:1450:GapAct
+    formula: USEG:UNDH:1450:GapAct
     proto: ca
+  USEG:UNDH:1550:GapAct:
     symbols:
-      - QUAD:LI28:301:BCTRL
-  QUAD:LI28:401:BCTRL:
-    formula: QUAD:LI28:401:BCTRL
+    - USEG:UNDH:1550:GapAct
+    formula: USEG:UNDH:1550:GapAct
     proto: ca
+  USEG:UNDH:1650:GapAct:
     symbols:
-      - QUAD:LI28:401:BCTRL
-  QUAD:LI28:501:BCTRL:
-    formula: QUAD:LI28:501:BCTRL
+    - USEG:UNDH:1650:GapAct
+    formula: USEG:UNDH:1650:GapAct
     proto: ca
+  USEG:UNDH:1750:GapAct:
     symbols:
-      - QUAD:LI28:501:BCTRL
-  QUAD:LI28:601:BCTRL:
-    formula: QUAD:LI28:601:BCTRL
+    - USEG:UNDH:1750:GapAct
+    formula: USEG:UNDH:1750:GapAct
     proto: ca
+  USEG:UNDH:1850:GapAct:
     symbols:
-      - QUAD:LI28:601:BCTRL
-  QUAD:LI28:701:BCTRL:
-    formula: QUAD:LI28:701:BCTRL
+    - USEG:UNDH:1850:GapAct
+    formula: USEG:UNDH:1850:GapAct
     proto: ca
+  USEG:UNDH:1950:GapAct:
     symbols:
-      - QUAD:LI28:701:BCTRL
-  QUAD:LI28:801:BCTRL:
-    formula: QUAD:LI28:801:BCTRL
+    - USEG:UNDH:1950:GapAct
+    formula: USEG:UNDH:1950:GapAct
     proto: ca
+  USEG:UNDH:2050:GapAct:
     symbols:
-      - QUAD:LI28:801:BCTRL
-  QUAD:LI28:901:BCTRL:
-    formula: QUAD:LI28:901:BCTRL
+    - USEG:UNDH:2050:GapAct
+    formula: USEG:UNDH:2050:GapAct
     proto: ca
+  USEG:UNDH:2250:GapAct:
     symbols:
-      - QUAD:LI28:901:BCTRL
-  QUAD:LI29:201:BCTRL:
-    formula: QUAD:LI29:201:BCTRL
+    - USEG:UNDH:2250:GapAct
+    formula: USEG:UNDH:2250:GapAct
     proto: ca
+  USEG:UNDH:2350:GapAct:
     symbols:
-      - QUAD:LI29:201:BCTRL
-  QUAD:LI29:301:BCTRL:
-    formula: QUAD:LI29:301:BCTRL
+    - USEG:UNDH:2350:GapAct
+    formula: USEG:UNDH:2350:GapAct
     proto: ca
+  USEG:UNDH:2450:GapAct:
     symbols:
-      - QUAD:LI29:301:BCTRL
-  QUAD:LI29:401:BCTRL:
-    formula: QUAD:LI29:401:BCTRL
+    - USEG:UNDH:2450:GapAct
+    formula: USEG:UNDH:2450:GapAct
     proto: ca
+  USEG:UNDH:2550:GapAct:
     symbols:
-      - QUAD:LI29:401:BCTRL
-  QUAD:LI29:501:BCTRL:
-    formula: QUAD:LI29:501:BCTRL
+    - USEG:UNDH:2550:GapAct
+    formula: USEG:UNDH:2550:GapAct
     proto: ca
+  USEG:UNDH:2650:GapAct:
     symbols:
-      - QUAD:LI29:501:BCTRL
-  QUAD:LI29:601:BCTRL:
-    formula: QUAD:LI29:601:BCTRL
+    - USEG:UNDH:2650:GapAct
+    formula: USEG:UNDH:2650:GapAct
     proto: ca
+  USEG:UNDH:2750:GapAct:
     symbols:
-      - QUAD:LI29:601:BCTRL
-  QUAD:LI29:701:BCTRL:
-    formula: QUAD:LI29:701:BCTRL
+    - USEG:UNDH:2750:GapAct
+    formula: USEG:UNDH:2750:GapAct
     proto: ca
+  USEG:UNDH:2950:GapAct:
     symbols:
-      - QUAD:LI29:701:BCTRL
-  QUAD:LI29:801:BCTRL:
-    formula: QUAD:LI29:801:BCTRL
+    - USEG:UNDH:2950:GapAct
+    formula: USEG:UNDH:2950:GapAct
     proto: ca
+  USEG:UNDH:3050:GapAct:
     symbols:
-      - QUAD:LI29:801:BCTRL
-  QUAD:LI29:901:BCTRL:
-    formula: QUAD:LI29:901:BCTRL
+    - USEG:UNDH:3050:GapAct
+    formula: USEG:UNDH:3050:GapAct
     proto: ca
+  USEG:UNDH:3150:GapAct:
     symbols:
-      - QUAD:LI29:901:BCTRL
-  QUAD:LI30:201:BCTRL:
-    formula: QUAD:LI30:201:BCTRL
+    - USEG:UNDH:3150:GapAct
+    formula: USEG:UNDH:3150:GapAct
     proto: ca
+  USEG:UNDH:3250:GapAct:
     symbols:
-      - QUAD:LI30:201:BCTRL
-  QUAD:LI30:301:BCTRL:
-    formula: QUAD:LI30:301:BCTRL
+    - USEG:UNDH:3250:GapAct
+    formula: USEG:UNDH:3250:GapAct
     proto: ca
+  USEG:UNDH:3350:GapAct:
     symbols:
-      - QUAD:LI30:301:BCTRL
-  QUAD:LI30:401:BCTRL:
-    formula: QUAD:LI30:401:BCTRL
+    - USEG:UNDH:3350:GapAct
+    formula: USEG:UNDH:3350:GapAct
     proto: ca
+  USEG:UNDH:3450:GapAct:
     symbols:
-      - QUAD:LI30:401:BCTRL
-  QUAD:LI30:501:BCTRL:
-    formula: QUAD:LI30:501:BCTRL
+    - USEG:UNDH:3450:GapAct
+    formula: USEG:UNDH:3450:GapAct
     proto: ca
+  USEG:UNDH:3550:GapAct:
     symbols:
-      - QUAD:LI30:501:BCTRL
-  QUAD:LI30:601:BCTRL:
-    formula: QUAD:LI30:601:BCTRL
+    - USEG:UNDH:3550:GapAct
+    formula: USEG:UNDH:3550:GapAct
     proto: ca
+  USEG:UNDH:3650:GapAct:
     symbols:
-      - QUAD:LI30:601:BCTRL
-  QUAD:LI30:701:BCTRL:
-    formula: QUAD:LI30:701:BCTRL
+    - USEG:UNDH:3650:GapAct
+    formula: USEG:UNDH:3650:GapAct
     proto: ca
+  USEG:UNDH:3750:GapAct:
     symbols:
-      - QUAD:LI30:701:BCTRL
-  QUAD:LI30:801:BCTRL:
-    formula: QUAD:LI30:801:BCTRL
+    - USEG:UNDH:3750:GapAct
+    formula: USEG:UNDH:3750:GapAct
     proto: ca
+  USEG:UNDH:3850:GapAct:
     symbols:
-      - QUAD:LI30:801:BCTRL
-  QUAD:LTUH:150:BCTRL:
-    formula: QUAD:LTUH:150:BCTRL
+    - USEG:UNDH:3850:GapAct
+    formula: USEG:UNDH:3850:GapAct
     proto: ca
+  USEG:UNDH:3950:GapAct:
     symbols:
-      - QUAD:LTUH:150:BCTRL
-  QUAD:LTUH:170:BCTRL:
-    formula: QUAD:LTUH:170:BCTRL
+    - USEG:UNDH:3950:GapAct
+    formula: USEG:UNDH:3950:GapAct
     proto: ca
+  USEG:UNDH:4050:GapAct:
     symbols:
-      - QUAD:LTUH:170:BCTRL
-  QUAD:LTUH:295:BCTRL:
-    formula: QUAD:LTUH:295:BCTRL
+    - USEG:UNDH:4050:GapAct
+    formula: USEG:UNDH:4050:GapAct
     proto: ca
+  USEG:UNDH:4150:GapAct:
     symbols:
-      - QUAD:LTUH:295:BCTRL
-  QUAD:LTUH:350:BCTRL:
-    formula: QUAD:LTUH:350:BCTRL
+    - USEG:UNDH:4150:GapAct
+    formula: USEG:UNDH:4150:GapAct
     proto: ca
+  USEG:UNDH:4250:GapAct:
     symbols:
-      - QUAD:LTUH:350:BCTRL
-  QUAD:LTUH:385:BCTRL:
-    formula: QUAD:LTUH:385:BCTRL
+    - USEG:UNDH:4250:GapAct
+    formula: USEG:UNDH:4250:GapAct
     proto: ca
+  USEG:UNDH:4350:GapAct:
     symbols:
-      - QUAD:LTUH:385:BCTRL
-  QUAD:LTUH:390:BCTRL:
-    formula: QUAD:LTUH:390:BCTRL
+    - USEG:UNDH:4350:GapAct
+    formula: USEG:UNDH:4350:GapAct
     proto: ca
+  USEG:UNDH:4450:GapAct:
     symbols:
-      - QUAD:LTUH:390:BCTRL
-  QUAD:LTUH:395:BCTRL:
-    formula: QUAD:LTUH:395:BCTRL
+    - USEG:UNDH:4450:GapAct
+    formula: USEG:UNDH:4450:GapAct
     proto: ca
+  USEG:UNDH:4550:GapAct:
     symbols:
-      - QUAD:LTUH:395:BCTRL
-  QUAD:LTUH:440:BCTRL:
-    formula: QUAD:LTUH:440:BCTRL
+    - USEG:UNDH:4550:GapAct
+    formula: USEG:UNDH:4550:GapAct
     proto: ca
+  USEG:UNDH:4650:GapAct:
     symbols:
-      - QUAD:LTUH:440:BCTRL
-  QUAD:LTUH:450:BCTRL:
-    formula: QUAD:LTUH:450:BCTRL
+    - USEG:UNDH:4650:GapAct
+    formula: USEG:UNDH:4650:GapAct
     proto: ca
+  USEG:UNDH:4750:GapAct:
     symbols:
-      - QUAD:LTUH:450:BCTRL
-  QUAD:LTUH:460:BCTRL:
-    formula: QUAD:LTUH:460:BCTRL
+    - USEG:UNDH:4750:GapAct
+    formula: USEG:UNDH:4750:GapAct
     proto: ca
-    symbols:
-      - QUAD:LTUH:460:BCTRL
-  QUAD:LTUH:485:BCTRL:
-    formula: QUAD:LTUH:485:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:485:BCTRL
-  QUAD:LTUH:490:BCTRL:
-    formula: QUAD:LTUH:490:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:490:BCTRL
-  QUAD:LTUH:495:BCTRL:
-    formula: QUAD:LTUH:495:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:495:BCTRL
-  QUAD:LTUH:550:BCTRL:
-    formula: QUAD:LTUH:550:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:550:BCTRL
-  QUAD:LTUH:585:BCTRL:
-    formula: QUAD:LTUH:585:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:585:BCTRL
-  QUAD:LTUH:590:BCTRL:
-    formula: QUAD:LTUH:590:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:590:BCTRL
-  QUAD:LTUH:595:BCTRL:
-    formula: QUAD:LTUH:595:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:595:BCTRL
-  QUAD:LTUH:620:BCTRL:
-    formula: QUAD:LTUH:620:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:620:BCTRL
-  QUAD:LTUH:640:BCTRL:
-    formula: QUAD:LTUH:640:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:640:BCTRL
-  QUAD:LTUH:660:BCTRL:
-    formula: QUAD:LTUH:660:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:660:BCTRL
-  QUAD:LTUH:680:BCTRL:
-    formula: QUAD:LTUH:680:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:680:BCTRL
-  QUAD:LTUH:840:BCTRL:
-    formula: QUAD:LTUH:840:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:840:BCTRL
-  QUAD:LTUH:860:BCTRL:
-    formula: QUAD:LTUH:860:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:860:BCTRL
-  QUAD:LTUH:880:BCTRL:
-    formula: QUAD:LTUH:880:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:LTUH:880:BCTRL
-  QUAD:UNDH:1380:BCTRL:
-    formula: QUAD:UNDH:1380:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:1380:BCTRL
-  QUAD:UNDH:1480:BCTRL:
-    formula: QUAD:UNDH:1480:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:1480:BCTRL
-  QUAD:UNDH:1580:BCTRL:
-    formula: QUAD:UNDH:1580:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:1580:BCTRL
-  QUAD:UNDH:1680:BCTRL:
-    formula: QUAD:UNDH:1680:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:1680:BCTRL
-  QUAD:UNDH:1780:BCTRL:
-    formula: QUAD:UNDH:1780:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:1780:BCTRL
-  QUAD:UNDH:1880:BCTRL:
-    formula: QUAD:UNDH:1880:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:1880:BCTRL
-  QUAD:UNDH:1980:BCTRL:
-    formula: QUAD:UNDH:1980:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:1980:BCTRL
-  QUAD:UNDH:2080:BCTRL:
-    formula: QUAD:UNDH:2080:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:2080:BCTRL
-  QUAD:UNDH:2180:BCTRL:
-    formula: QUAD:UNDH:2180:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:2180:BCTRL
-  QUAD:UNDH:2280:BCTRL:
-    formula: QUAD:UNDH:2280:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:2280:BCTRL
-  QUAD:UNDH:2380:BCTRL:
-    formula: QUAD:UNDH:2380:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:2380:BCTRL
-  QUAD:UNDH:2480:BCTRL:
-    formula: QUAD:UNDH:2480:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:2480:BCTRL
-  QUAD:UNDH:2580:BCTRL:
-    formula: QUAD:UNDH:2580:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:2580:BCTRL
-  QUAD:UNDH:2680:BCTRL:
-    formula: QUAD:UNDH:2680:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:2680:BCTRL
-  QUAD:UNDH:2880:BCTRL:
-    formula: QUAD:UNDH:2880:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:2880:BCTRL
-  QUAD:UNDH:3180:BCTRL:
-    formula: QUAD:UNDH:3180:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:3180:BCTRL
-  QUAD:UNDH:3280:BCTRL:
-    formula: QUAD:UNDH:3280:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:3280:BCTRL
-  QUAD:UNDH:3380:BCTRL:
-    formula: QUAD:UNDH:3380:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:3380:BCTRL
-  QUAD:UNDH:3480:BCTRL:
-    formula: QUAD:UNDH:3480:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:3480:BCTRL
-  QUAD:UNDH:3580:BCTRL:
-    formula: QUAD:UNDH:3580:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:3580:BCTRL
-  QUAD:UNDH:3680:BCTRL:
-    formula: QUAD:UNDH:3680:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:3680:BCTRL
-  QUAD:UNDH:3780:BCTRL:
-    formula: QUAD:UNDH:3780:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:3780:BCTRL
-  QUAD:UNDH:3880:BCTRL:
-    formula: QUAD:UNDH:3880:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:3880:BCTRL
-  QUAD:UNDH:3980:BCTRL:
-    formula: QUAD:UNDH:3980:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:3980:BCTRL
-  QUAD:UNDH:4080:BCTRL:
-    formula: QUAD:UNDH:4080:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:4080:BCTRL
-  QUAD:UNDH:4180:BCTRL:
-    formula: QUAD:UNDH:4180:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:4180:BCTRL
-  QUAD:UNDH:4280:BCTRL:
-    formula: QUAD:UNDH:4280:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:4280:BCTRL
-  QUAD:UNDH:4380:BCTRL:
-    formula: QUAD:UNDH:4380:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:4380:BCTRL
-  QUAD:UNDH:4480:BCTRL:
-    formula: QUAD:UNDH:4480:BCTRL
-    proto: ca
-    symbols:
-      - QUAD:UNDH:4480:BCTRL
-  SOLN:IN20:121:BCTRL:
-    formula: SOLN:IN20:121:BCTRL
-    proto: ca
-    symbols:
-      - SOLN:IN20:121:BCTRL
-  USEG:UNDH:1450:GapDes:
-    formula: USEG:UNDH:1450:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:1450:GapDes
-  USEG:UNDH:1550:GapDes:
-    formula: USEG:UNDH:1550:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:1550:GapDes
-  USEG:UNDH:1650:GapDes:
-    formula: USEG:UNDH:1650:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:1650:GapDes
-  USEG:UNDH:1750:GapDes:
-    formula: USEG:UNDH:1750:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:1750:GapDes
-  USEG:UNDH:1850:GapDes:
-    formula: USEG:UNDH:1850:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:1850:GapDes
-  USEG:UNDH:1950:GapDes:
-    formula: USEG:UNDH:1950:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:1950:GapDes
-  USEG:UNDH:2050:GapDes:
-    formula: USEG:UNDH:2050:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:2050:GapDes
-  USEG:UNDH:2250:GapDes:
-    formula: USEG:UNDH:2250:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:2250:GapDes
-  USEG:UNDH:2350:GapDes:
-    formula: USEG:UNDH:2350:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:2350:GapDes
-  USEG:UNDH:2450:GapDes:
-    formula: USEG:UNDH:2450:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:2450:GapDes
-  USEG:UNDH:2550:GapDes:
-    formula: USEG:UNDH:2550:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:2550:GapDes
-  USEG:UNDH:2650:GapDes:
-    formula: USEG:UNDH:2650:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:2650:GapDes
-  USEG:UNDH:2750:GapDes:
-    formula: USEG:UNDH:2750:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:2750:GapDes
-  USEG:UNDH:2950:GapDes:
-    formula: USEG:UNDH:2950:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:2950:GapDes
-  USEG:UNDH:3050:GapDes:
-    formula: USEG:UNDH:3050:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:3050:GapDes
-  USEG:UNDH:3150:GapDes:
-    formula: USEG:UNDH:3150:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:3150:GapDes
-  USEG:UNDH:3250:GapDes:
-    formula: USEG:UNDH:3250:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:3250:GapDes
-  USEG:UNDH:3350:GapDes:
-    formula: USEG:UNDH:3350:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:3350:GapDes
-  USEG:UNDH:3450:GapDes:
-    formula: USEG:UNDH:3450:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:3450:GapDes
-  USEG:UNDH:3550:GapDes:
-    formula: USEG:UNDH:3550:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:3550:GapDes
-  USEG:UNDH:3650:GapDes:
-    formula: USEG:UNDH:3650:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:3650:GapDes
-  USEG:UNDH:3750:GapDes:
-    formula: USEG:UNDH:3750:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:3750:GapDes
-  USEG:UNDH:3850:GapDes:
-    formula: USEG:UNDH:3850:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:3850:GapDes
-  USEG:UNDH:3950:GapDes:
-    formula: USEG:UNDH:3950:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:3950:GapDes
-  USEG:UNDH:4050:GapDes:
-    formula: USEG:UNDH:4050:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:4050:GapDes
-  USEG:UNDH:4150:GapDes:
-    formula: USEG:UNDH:4150:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:4150:GapDes
-  USEG:UNDH:4250:GapDes:
-    formula: USEG:UNDH:4250:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:4250:GapDes
-  USEG:UNDH:4350:GapDes:
-    formula: USEG:UNDH:4350:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:4350:GapDes
-  USEG:UNDH:4450:GapDes:
-    formula: USEG:UNDH:4450:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:4450:GapDes
-  USEG:UNDH:4550:GapDes:
-    formula: USEG:UNDH:4550:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:4550:GapDes
-  USEG:UNDH:4650:GapDes:
-    formula: USEG:UNDH:4650:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:4650:GapDes
-  USEG:UNDH:4750:GapDes:
-    formula: USEG:UNDH:4750:GapDes
-    proto: ca
-    symbols:
-      - USEG:UNDH:4750:GapDes
-  XCOR:UNDH:1380:BCTRL:
-    formula: XCOR:UNDH:1380:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:1380:BCTRL
-  XCOR:UNDH:1480:BCTRL:
-    formula: XCOR:UNDH:1480:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:1480:BCTRL
-  XCOR:UNDH:1580:BCTRL:
-    formula: XCOR:UNDH:1580:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:1580:BCTRL
-  XCOR:UNDH:1680:BCTRL:
-    formula: XCOR:UNDH:1680:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:1680:BCTRL
-  XCOR:UNDH:1780:BCTRL:
-    formula: XCOR:UNDH:1780:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:1780:BCTRL
-  XCOR:UNDH:1880:BCTRL:
-    formula: XCOR:UNDH:1880:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:1880:BCTRL
-  XCOR:UNDH:1980:BCTRL:
-    formula: XCOR:UNDH:1980:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:1980:BCTRL
-  XCOR:UNDH:2080:BCTRL:
-    formula: XCOR:UNDH:2080:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:2080:BCTRL
-  XCOR:UNDH:2180:BCTRL:
-    formula: XCOR:UNDH:2180:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:2180:BCTRL
-  XCOR:UNDH:2280:BCTRL:
-    formula: XCOR:UNDH:2280:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:2280:BCTRL
-  XCOR:UNDH:2380:BCTRL:
-    formula: XCOR:UNDH:2380:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:2380:BCTRL
-  XCOR:UNDH:2480:BCTRL:
-    formula: XCOR:UNDH:2480:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:2480:BCTRL
-  XCOR:UNDH:2580:BCTRL:
-    formula: XCOR:UNDH:2580:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:2580:BCTRL
-  XCOR:UNDH:2680:BCTRL:
-    formula: XCOR:UNDH:2680:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:2680:BCTRL
-  XCOR:UNDH:2780:BCTRL:
-    formula: XCOR:UNDH:2780:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:2780:BCTRL
-  XCOR:UNDH:2880:BCTRL:
-    formula: XCOR:UNDH:2880:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:2880:BCTRL
-  XCOR:UNDH:2980:BCTRL:
-    formula: XCOR:UNDH:2980:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:2980:BCTRL
-  XCOR:UNDH:3080:BCTRL:
-    formula: XCOR:UNDH:3080:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:3080:BCTRL
-  XCOR:UNDH:3180:BCTRL:
-    formula: XCOR:UNDH:3180:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:3180:BCTRL
-  XCOR:UNDH:3280:BCTRL:
-    formula: XCOR:UNDH:3280:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:3280:BCTRL
-  XCOR:UNDH:3380:BCTRL:
-    formula: XCOR:UNDH:3380:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:3380:BCTRL
-  XCOR:UNDH:3480:BCTRL:
-    formula: XCOR:UNDH:3480:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:3480:BCTRL
-  XCOR:UNDH:3580:BCTRL:
-    formula: XCOR:UNDH:3580:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:3580:BCTRL
-  XCOR:UNDH:3680:BCTRL:
-    formula: XCOR:UNDH:3680:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:3680:BCTRL
-  XCOR:UNDH:3780:BCTRL:
-    formula: XCOR:UNDH:3780:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:3780:BCTRL
-  XCOR:UNDH:3880:BCTRL:
-    formula: XCOR:UNDH:3880:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:3880:BCTRL
-  XCOR:UNDH:3980:BCTRL:
-    formula: XCOR:UNDH:3980:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:3980:BCTRL
-  XCOR:UNDH:4080:BCTRL:
-    formula: XCOR:UNDH:4080:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:4080:BCTRL
-  XCOR:UNDH:4180:BCTRL:
-    formula: XCOR:UNDH:4180:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:4180:BCTRL
-  XCOR:UNDH:4280:BCTRL:
-    formula: XCOR:UNDH:4280:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:4280:BCTRL
-  XCOR:UNDH:4380:BCTRL:
-    formula: XCOR:UNDH:4380:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:4380:BCTRL
-  XCOR:UNDH:4480:BCTRL:
-    formula: XCOR:UNDH:4480:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:4480:BCTRL
-  XCOR:UNDH:4580:BCTRL:
-    formula: XCOR:UNDH:4580:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:4580:BCTRL
-  XCOR:UNDH:4680:BCTRL:
-    formula: XCOR:UNDH:4680:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:4680:BCTRL
-  XCOR:UNDH:4780:BCTRL:
-    formula: XCOR:UNDH:4780:BCTRL
-    proto: ca
-    symbols:
-      - XCOR:UNDH:4780:BCTRL
-  YCOR:UNDH:1380:BCTRL:
-    formula: YCOR:UNDH:1380:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:1380:BCTRL
-  YCOR:UNDH:1480:BCTRL:
-    formula: YCOR:UNDH:1480:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:1480:BCTRL
-  YCOR:UNDH:1580:BCTRL:
-    formula: YCOR:UNDH:1580:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:1580:BCTRL
-  YCOR:UNDH:1680:BCTRL:
-    formula: YCOR:UNDH:1680:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:1680:BCTRL
-  YCOR:UNDH:1780:BCTRL:
-    formula: YCOR:UNDH:1780:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:1780:BCTRL
-  YCOR:UNDH:1880:BCTRL:
-    formula: YCOR:UNDH:1880:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:1880:BCTRL
-  YCOR:UNDH:1980:BCTRL:
-    formula: YCOR:UNDH:1980:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:1980:BCTRL
-  YCOR:UNDH:2080:BCTRL:
-    formula: YCOR:UNDH:2080:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:2080:BCTRL
-  YCOR:UNDH:2180:BCTRL:
-    formula: YCOR:UNDH:2180:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:2180:BCTRL
-  YCOR:UNDH:2280:BCTRL:
-    formula: YCOR:UNDH:2280:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:2280:BCTRL
-  YCOR:UNDH:2380:BCTRL:
-    formula: YCOR:UNDH:2380:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:2380:BCTRL
-  YCOR:UNDH:2480:BCTRL:
-    formula: YCOR:UNDH:2480:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:2480:BCTRL
-  YCOR:UNDH:2580:BCTRL:
-    formula: YCOR:UNDH:2580:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:2580:BCTRL
-  YCOR:UNDH:2680:BCTRL:
-    formula: YCOR:UNDH:2680:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:2680:BCTRL
-  YCOR:UNDH:2780:BCTRL:
-    formula: YCOR:UNDH:2780:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:2780:BCTRL
-  YCOR:UNDH:2880:BCTRL:
-    formula: YCOR:UNDH:2880:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:2880:BCTRL
-  YCOR:UNDH:2980:BCTRL:
-    formula: YCOR:UNDH:2980:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:2980:BCTRL
-  YCOR:UNDH:3080:BCTRL:
-    formula: YCOR:UNDH:3080:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:3080:BCTRL
-  YCOR:UNDH:3180:BCTRL:
-    formula: YCOR:UNDH:3180:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:3180:BCTRL
-  YCOR:UNDH:3280:BCTRL:
-    formula: YCOR:UNDH:3280:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:3280:BCTRL
-  YCOR:UNDH:3380:BCTRL:
-    formula: YCOR:UNDH:3380:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:3380:BCTRL
-  YCOR:UNDH:3480:BCTRL:
-    formula: YCOR:UNDH:3480:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:3480:BCTRL
-  YCOR:UNDH:3580:BCTRL:
-    formula: YCOR:UNDH:3580:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:3580:BCTRL
-  YCOR:UNDH:3680:BCTRL:
-    formula: YCOR:UNDH:3680:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:3680:BCTRL
-  YCOR:UNDH:3780:BCTRL:
-    formula: YCOR:UNDH:3780:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:3780:BCTRL
-  YCOR:UNDH:3880:BCTRL:
-    formula: YCOR:UNDH:3880:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:3880:BCTRL
-  YCOR:UNDH:3980:BCTRL:
-    formula: YCOR:UNDH:3980:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:3980:BCTRL
-  YCOR:UNDH:4080:BCTRL:
-    formula: YCOR:UNDH:4080:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:4080:BCTRL
-  YCOR:UNDH:4180:BCTRL:
-    formula: YCOR:UNDH:4180:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:4180:BCTRL
-  YCOR:UNDH:4280:BCTRL:
-    formula: YCOR:UNDH:4280:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:4280:BCTRL
-  YCOR:UNDH:4380:BCTRL:
-    formula: YCOR:UNDH:4380:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:4380:BCTRL
-  YCOR:UNDH:4480:BCTRL:
-    formula: YCOR:UNDH:4480:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:4480:BCTRL
-  YCOR:UNDH:4580:BCTRL:
-    formula: YCOR:UNDH:4580:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:4580:BCTRL
-  YCOR:UNDH:4680:BCTRL:
-    formula: YCOR:UNDH:4680:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:4680:BCTRL
-  YCOR:UNDH:4780:BCTRL:
-    formula: YCOR:UNDH:4780:BCTRL
-    proto: ca
-    symbols:
-      - YCOR:UNDH:4780:BCTRL
 output_variables:
   GDET:FEE1:241:ENRC_CU_HXR_LUME:
     symbols:
-      - hxr_pulse_intensity
+    - hxr_pulse_intensity
     proto: pva
     formula: hxr_pulse_intensity
