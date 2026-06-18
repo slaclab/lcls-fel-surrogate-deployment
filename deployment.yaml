@@ -17,11 +17,7 @@ spec:
     spec:
       containers:
       - name: lcls-fel-surrogate
-<<<<<<< before updating
         image: ghcr.io/slaclab/lcls-fel-surrogate:7c492b0
-=======
-        image: ghcr.io/slaclab/lcls-fel-surrogate:7c492b0
->>>>>>> after updating
         imagePullPolicy: Always
         restartPolicy: Always
         resources:
