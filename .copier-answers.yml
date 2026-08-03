@@ -5,6 +5,6 @@ device: cpu
 inference_service_url: http://inference-service-fel:8000
 interface: k2eg
 mlflow_tracking_uri: https://ard-mlflow.slac.stanford.edu/
-model_version: 6
+model_version: 20
 rate: 1.0
 registered_model_name: lcls-fel-surrogate
