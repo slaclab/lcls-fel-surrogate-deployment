@@ -33,7 +33,7 @@ spec:
           - name: K2EG_PYTHON_CONFIGURATION_PATH_FOLDER
             value: /app/src/config
           - name: MODEL_VERSION
-            value: "1"
+            value: "20"
           - name: INFERENCE_SERVICE_URL
             value: "http://inference-service-fel:8000"
         volumeMounts:
