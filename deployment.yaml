@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: lcls-fel-surrogate
-        image: ghcr.io/slaclab/lcls-fel-surrogate:7c492b0
+        image: ghcr.io/slaclab/lcls-fel-surrogate:test-21
         imagePullPolicy: Always
         restartPolicy: Always
         resources:
@@ -33,7 +33,7 @@ spec:
           - name: K2EG_PYTHON_CONFIGURATION_PATH_FOLDER
             value: /app/src/config
           - name: MODEL_VERSION
-            value: "20"
+            value: "21"
           - name: INFERENCE_SERVICE_URL
             value: "http://inference-service-fel:8000"
         volumeMounts:
